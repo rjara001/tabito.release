@@ -1,0 +1,1505 @@
+2024-05-27 00:02:56.813 +02:00 [INF] Application is shutting down...
+2024-05-27 00:03:37.389 +02:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1786104054-2076035681-1748046384-302233383-2924927588\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-27 00:03:37.770 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 00:03:37.771 +02:00 [INF] Hosting environment: Production
+2024-05-27 00:03:37.771 +02:00 [INF] Content root path: C:\dev\Sites\tabito
+2024-05-27 00:03:37.799 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:03:38.076 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 00:03:38.082 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:03:38.324 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:03:38.330 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:03:38.334 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:03:38.359 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:03:38.361 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:03:38.361 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:03:38.516 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:03:38.518 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:03:38.528 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:03:38.529 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","authToken":null}
+2024-05-27 00:03:38.531 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","token":""}
+2024-05-27 00:03:38.556 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:03:38.557 +02:00 [INF] HTTP GET / responded 200 in 478.4243 ms
+2024-05-27 00:03:38.566 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 769.5914ms
+2024-05-27 00:03:38.572 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:03:38.578 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:03:38.581 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:03:38.582 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:03:38.583 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 4.9876 ms
+2024-05-27 00:03:38.584 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 11.234ms
+2024-05-27 00:03:38.664 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:03:38.667 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:03:38.667 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:03:38.685 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.694 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:03:38.695 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.695 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 10.5366 ms
+2024-05-27 00:03:38.697 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 32.7381ms
+2024-05-27 00:03:38.701 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:03:38.702 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.707 +02:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\blazor.boot.json.br'
+2024-05-27 00:03:38.707 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.707 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 200 in 5.4053 ms
+2024-05-27 00:03:38.707 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 200 7515 application/json 6.4778ms
+2024-05-27 00:03:38.710 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:03:38.711 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:03:38.711 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:03:38.711 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:03:38.711 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:03:38.711 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:03:38.712 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.712 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.712 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:03:38.713 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.713 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.8867 ms
+2024-05-27 00:03:38.713 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:03:38.713 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.713 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.1391 ms
+2024-05-27 00:03:38.713 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:03:38.713 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 2.2759ms
+2024-05-27 00:03:38.713 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:03:38.713 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 2.9604ms
+2024-05-27 00:03:38.715 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:03:38.715 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:03:38.715 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 2.1308ms
+2024-05-27 00:03:38.715 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 2.122ms
+2024-05-27 00:03:38.739 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm - null null
+2024-05-27 00:03:38.740 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.746 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Web.Client.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Web.Client.wasm.br'
+2024-05-27 00:03:38.748 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:38.748 +02:00 [INF] HTTP GET /_framework/Tabito.Web.Client.wasm.br responded 200 in 8.4006 ms
+2024-05-27 00:03:38.751 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm.br - 200 64982 application/wasm 11.6647ms
+2024-05-27 00:03:44.826 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.map - null null
+2024-05-27 00:03:44.826 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.js.map - null null
+2024-05-27 00:03:44.828 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:44.828 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:44.828 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:44.829 +02:00 [INF] HTTP GET /_framework/dotnet.js.map responded 404 in 0.8013 ms
+2024-05-27 00:03:44.828 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:03:44.829 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.js.map responded 404 in 0.9003 ms
+2024-05-27 00:03:44.830 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.map - 404 null null 3.9389ms
+2024-05-27 00:03:44.831 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.js.map - 404 null null 4.6572ms
+2024-05-27 00:03:44.831 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7070/_framework/dotnet.js.map, Response status code: 404
+2024-05-27 00:03:44.832 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7070/_framework/dotnet.runtime.js.map, Response status code: 404
+2024-05-27 00:09:20.509 +02:00 [INF] Application is shutting down...
+2024-05-27 00:10:10.148 +02:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1786104054-2076035681-1748046384-302233383-2924927588\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-27 00:10:10.564 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 00:10:10.565 +02:00 [INF] Hosting environment: Production
+2024-05-27 00:10:10.565 +02:00 [INF] Content root path: C:\dev\Sites\tabito
+2024-05-27 00:10:10.602 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:10:10.697 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:10.705 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 00:10:10.711 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:10:11.132 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:10:11.138 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:10:11.161 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:10:11.163 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:10:11.170 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 00:10:11.182 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 00:10:11.303 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:10:11.306 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","Identity":{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}}
+2024-05-27 00:10:11.331 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:10:11.334 +02:00 [INF] HTTP GET / responded 200 in 623.9027 ms
+2024-05-27 00:10:11.353 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 754.4666ms
+2024-05-27 00:10:11.406 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:10:11.415 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.416 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:10:11.419 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/bugdefender-scripts.js - null null
+2024-05-27 00:10:11.419 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Tabito.Web.Client.bundle.scp.css - null null
+2024-05-27 00:10:11.421 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:10:11.422 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:10:11.422 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.7660 ms
+2024-05-27 00:10:11.423 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 17.6822ms
+2024-05-27 00:10:11.425 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.426 +02:00 [INF] The file /Tabito.Web.Client.bundle.scp.css was not modified
+2024-05-27 00:10:11.426 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Tabito.Web.Client.bundle.scp.css - 304 null text/css 7.362ms
+2024-05-27 00:10:11.426 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.427 +02:00 [INF] The file /js/bugdefender-scripts.js was not modified
+2024-05-27 00:10:11.427 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/bugdefender-scripts.js - 304 null text/javascript 8.3749ms
+2024-05-27 00:10:11.680 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:10:11.683 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:10:11.684 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:10:11.687 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.688 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.696 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:10:11.697 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.697 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 9.4874 ms
+2024-05-27 00:10:11.699 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 18.5279ms
+2024-05-27 00:10:11.709 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:10:11.713 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.714 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.722 +02:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\blazor.boot.json.br'
+2024-05-27 00:10:11.723 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.723 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 200 in 9.0784 ms
+2024-05-27 00:10:11.723 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 200 7513 application/json 14.3053ms
+2024-05-27 00:10:11.726 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:10:11.726 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:10:11.726 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:10:11.726 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:10:11.727 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:10:11.727 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:10:11.731 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.732 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.732 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:10:11.732 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:10:11.733 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:10:11.733 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.733 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 1.5281 ms
+2024-05-27 00:10:11.734 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.734 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 8.021ms
+2024-05-27 00:10:11.734 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.735 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:10:11.736 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.736 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.8495 ms
+2024-05-27 00:10:11.736 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.737 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 10.834ms
+2024-05-27 00:10:11.737 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:10:11.739 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 6.7267ms
+2024-05-27 00:10:11.740 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.741 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:10:11.742 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 9.252ms
+2024-05-27 00:10:11.758 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm - null null
+2024-05-27 00:10:11.758 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm - null null
+2024-05-27 00:10:11.761 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.761 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.764 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:11.764 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.765 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Share.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Share.wasm.br'
+2024-05-27 00:10:11.765 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.766 +02:00 [INF] HTTP GET /_framework/Tabito.Share.wasm.br responded 200 in 4.2724 ms
+2024-05-27 00:10:11.766 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm.br - 200 10286 application/wasm 8.2315ms
+2024-05-27 00:10:11.771 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Web.Client.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Web.Client.wasm.br'
+2024-05-27 00:10:11.773 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:11.774 +02:00 [INF] HTTP GET /_framework/Tabito.Web.Client.wasm.br responded 200 in 9.2479 ms
+2024-05-27 00:10:11.777 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm.br - 200 64425 application/wasm 19.6844ms
+2024-05-27 00:10:13.101 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - application/x-www-form-urlencoded 217
+2024-05-27 00:10:13.102 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:10:13.103 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:10:13.107 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:13.120 +02:00 [INF] Executing endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 00:10:13.136 +02:00 [INF] IAppLogger:IdentityComponentsEndpointRouteBuilderExtensions:
+2024-05-27 00:10:13.138 +02:00 [INF] Executing ChallengeResult with authentication schemes (["MyGoogleScheme"]).
+2024-05-27 00:10:13.154 +02:00 [INF] AuthenticationScheme: MyGoogleScheme was challenged.
+2024-05-27 00:10:13.154 +02:00 [INF] Executed endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 00:10:13.154 +02:00 [INF] HTTP POST /Account/PerformExternalLogin responded 302 in 46.5554 ms
+2024-05-27 00:10:13.155 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - 302 null null 53.9436ms
+2024-05-27 00:10:17.930 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTLHMlyUpiOafsS4nS-jCEwtHC0OKzl82YDFk47q1XOft9OBwTPVt6bjkCa8KELsz-cmsDuSKM_y-kSM9SJETTeAeF9c-xRwXFZx_ZshJO3MMaOn8ZIp4RrnpwcF5Tg5xRk-hqXyiFkuEhHb9LxaCNeu_aMoADgVX97ilFJ9weO6gQP4XpUMrm4mG5pgtUIPNOodANC5GM5IFPOXqmKYrFZPdpYUDFRHZfbd0ZSTaJdEmILGuxyuZONBLR289ITqsMnVxGNBRB30SWPEdjPaAXN4AqFiacHmg4wAq-s4PbnZv1tBgsHu8Q0BSjSoH9U23pPMs3a8CWwVBjEawcjr1t5kgzcfsww5gYC22zMe4Ju5Vrob2AsWeVwrY2z00J1-zkU&code=4/0AdLIrYczPz8KXnnA79Q6uO1SaVXR3xsTx4SYDjSVGzVTa-dyb0FFeIih4_Q5cBTQjSyJWA&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent - null null
+2024-05-27 00:10:18.461 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2024-05-27 00:10:18.462 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTLHMlyUpiOafsS4nS-jCEwtHC0OKzl82YDFk47q1XOft9OBwTPVt6bjkCa8KELsz-cmsDuSKM_y-kSM9SJETTeAeF9c-xRwXFZx_ZshJO3MMaOn8ZIp4RrnpwcF5Tg5xRk-hqXyiFkuEhHb9LxaCNeu_aMoADgVX97ilFJ9weO6gQP4XpUMrm4mG5pgtUIPNOodANC5GM5IFPOXqmKYrFZPdpYUDFRHZfbd0ZSTaJdEmILGuxyuZONBLR289ITqsMnVxGNBRB30SWPEdjPaAXN4AqFiacHmg4wAq-s4PbnZv1tBgsHu8Q0BSjSoH9U23pPMs3a8CWwVBjEawcjr1t5kgzcfsww5gYC22zMe4Ju5Vrob2AsWeVwrY2z00J1-zkU&code=4/0AdLIrYczPz8KXnnA79Q6uO1SaVXR3xsTx4SYDjSVGzVTa-dyb0FFeIih4_Q5cBTQjSyJWA&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent - 302 null null 532.2867ms
+2024-05-27 00:10:18.465 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - null null
+2024-05-27 00:10:18.472 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 00:10:18.472 +02:00 [INF] Executing endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 00:10:18.500 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:10:18.507 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgtxRNu-_0erlQcH4parX261jnosI5f3iBRS7KqLQUEZs9gkea3la9vzIOekNCtfeG6wCaRK6wu1z2gJRICUoTgfH17h317ax8C6D5jVUji9tMXiJeXncDqPQP-ApW2GvCvdKYZyh56BLuNL42VcL0UfFIjNLMr-aCgYKAVkSARASFQHGX2Mihgri_Da1YIP0XEXSZoRbXw0171"}}
+2024-05-27 00:10:18.510 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:10:18.511 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgtxRNu-_0erlQcH4parX261jnosI5f3iBRS7KqLQUEZs9gkea3la9vzIOekNCtfeG6wCaRK6wu1z2gJRICUoTgfH17h317ax8C6D5jVUji9tMXiJeXncDqPQP-ApW2GvCvdKYZyh56BLuNL42VcL0UfFIjNLMr-aCgYKAVkSARASFQHGX2Mihgri_Da1YIP0XEXSZoRbXw0171"}}
+2024-05-27 00:10:18.543 +02:00 [INF] IAppLogger:OnLoginCallbackAsync: rjara001@gmail.com
+2024-05-27 00:10:19.877 +02:00 [INF] Saved 1 entities to in-memory store.
+2024-05-27 00:10:19.943 +02:00 [INF] Saved 2 entities to in-memory store.
+2024-05-27 00:10:19.945 +02:00 [INF] User created an account using MyGoogleScheme provider.
+2024-05-27 00:10:19.984 +02:00 [INF] IAppLogger:{"TableActive":null,"Name":"rjara001@gmail.com","Token":"ya29.a0AXooCgtxRNu-_","Picture":"https://lh3.googleusercontent.com/a/ACg8ocJFH6JGNVKO42Bqhw7tkJbFTMcMDllRp-HzpZi3F39bqx7f-Q=s96-c","Tables":{},"Drive":{"IdFile":null,"IdFolder":null}}
+2024-05-27 00:10:20.027 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-05-27 00:10:20.031 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:10:20.031 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","Identity":{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}}
+2024-05-27 00:10:20.032 +02:00 [INF] Executed endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 00:10:20.032 +02:00 [INF] HTTP GET /Account/ExternalLogin responded 302 in 1559.9745 ms
+2024-05-27 00:10:20.034 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:10:20.036 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - 302 null text/html; charset=utf-8 1571.1825ms
+2024-05-27 00:10:20.039 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:10:20.062 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:10:20.063 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgtxRNu-_0erlQcH4parX261jnosI5f3iBRS7KqLQUEZs9gkea3la9vzIOekNCtfeG6wCaRK6wu1z2gJRICUoTgfH17h317ax8C6D5jVUji9tMXiJeXncDqPQP-ApW2GvCvdKYZyh56BLuNL42VcL0UfFIjNLMr-aCgYKAVkSARASFQHGX2Mihgri_Da1YIP0XEXSZoRbXw0171"}}
+2024-05-27 00:10:20.068 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:10:20.068 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgtxRNu-_0erlQcH4parX261jnosI5f3iBRS7KqLQUEZs9gkea3la9vzIOekNCtfeG6wCaRK6wu1z2gJRICUoTgfH17h317ax8C6D5jVUji9tMXiJeXncDqPQP-ApW2GvCvdKYZyh56BLuNL42VcL0UfFIjNLMr-aCgYKAVkSARASFQHGX2Mihgri_Da1YIP0XEXSZoRbXw0171"}}
+2024-05-27 00:10:20.110 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:10:20.111 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:10:20.112 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgtxRNu-_0erlQcH4parX261jnosI5f3iBRS7KqLQUEZs9gkea3la9vzIOekNCtfeG6wCaRK6wu1z2gJRICUoTgfH17h317ax8C6D5jVUji9tMXiJeXncDqPQP-ApW2GvCvdKYZyh56BLuNL42VcL0UfFIjNLMr-aCgYKAVkSARASFQHGX2Mihgri_Da1YIP0XEXSZoRbXw0171"}}
+2024-05-27 00:10:20.117 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","token":"ya29.a0AXooCgtxRNu-_0erlQcH4parX261jnosI5f3iBRS7KqLQUEZs9gkea3la9vzIOekNCtfeG6wCaRK6wu1z2gJRICUoTgfH17h317ax8C6D5jVUji9tMXiJeXncDqPQP-ApW2GvCvdKYZyh56BLuNL42VcL0UfFIjNLMr-aCgYKAVkSARASFQHGX2Mihgri_Da1YIP0XEXSZoRbXw0171"}
+2024-05-27 00:10:20.121 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:10:20.122 +02:00 [INF] HTTP GET / responded 200 in 82.7660 ms
+2024-05-27 00:10:20.124 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 90.4965ms
+2024-05-27 00:10:20.145 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:10:20.147 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:10:20.148 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:10:20.148 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:10:20.148 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.9051 ms
+2024-05-27 00:10:20.148 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 3.4089ms
+2024-05-27 00:10:20.257 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:10:20.257 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:10:20.258 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:10:20.260 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:20.260 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:10:20.260 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:20.260 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 0.7160 ms
+2024-05-27 00:10:20.261 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 3.7489ms
+2024-05-27 00:10:20.267 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:10:20.269 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:20.270 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 00:10:20.270 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:20.270 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 1.2805 ms
+2024-05-27 00:10:20.271 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 3.1897ms
+2024-05-27 00:10:20.275 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:10:20.275 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:10:20.275 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:10:20.275 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:10:20.275 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:10:20.275 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:10:20.276 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:20.276 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:20.277 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:10:20.277 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:10:20.277 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:20.277 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:10:20.277 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.8869 ms
+2024-05-27 00:10:20.277 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.0033 ms
+2024-05-27 00:10:20.278 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 2.9233ms
+2024-05-27 00:10:20.278 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 2.9372ms
+2024-05-27 00:10:20.279 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:10:20.280 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:10:20.281 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 1.9277ms
+2024-05-27 00:10:20.282 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:10:20.283 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:10:20.284 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.4879ms
+2024-05-27 00:13:04.962 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:13:04.968 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:13:04.970 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:04.970 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:13:04.971 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:13:04.971 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:04.971 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:13:04.971 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:13:04.976 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:13:04.977 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:04.978 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:13:04.978 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","authToken":null}
+2024-05-27 00:13:04.978 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","token":""}
+2024-05-27 00:13:04.979 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:13:04.979 +02:00 [INF] HTTP GET / responded 200 in 11.2728 ms
+2024-05-27 00:13:04.980 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 17.2619ms
+2024-05-27 00:13:05.019 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:13:05.021 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:13:05.021 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:13:05.022 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:13:05.022 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.9338 ms
+2024-05-27 00:13:05.022 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 2.9167ms
+2024-05-27 00:13:05.320 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:13:05.321 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:13:05.321 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:13:05.322 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.324 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:13:05.324 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.324 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 2.2405 ms
+2024-05-27 00:13:05.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 4.132ms
+2024-05-27 00:13:05.331 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:13:05.333 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.336 +02:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\blazor.boot.json.br'
+2024-05-27 00:13:05.336 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.336 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 200 in 3.2915 ms
+2024-05-27 00:13:05.336 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 200 7513 application/json 4.9511ms
+2024-05-27 00:13:05.343 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:13:05.343 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:13:05.343 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:13:05.344 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:13:05.344 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:13:05.344 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:13:05.344 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.345 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.345 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:13:05.345 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.345 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:13:05.345 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.0337 ms
+2024-05-27 00:13:05.345 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.346 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.9245 ms
+2024-05-27 00:13:05.346 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 2.5894ms
+2024-05-27 00:13:05.346 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 2.2156ms
+2024-05-27 00:13:05.365 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:13:05.366 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:13:05.367 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:13:05.367 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:13:05.367 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 2.0591ms
+2024-05-27 00:13:05.367 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.6673ms
+2024-05-27 00:13:05.477 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm - null null
+2024-05-27 00:13:05.477 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.480 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Web.Client.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Web.Client.wasm.br'
+2024-05-27 00:13:05.480 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:05.480 +02:00 [INF] HTTP GET /_framework/Tabito.Web.Client.wasm.br responded 200 in 2.3955 ms
+2024-05-27 00:13:05.480 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm.br - 200 64425 application/wasm 3.6544ms
+2024-05-27 00:13:25.446 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:13:25.447 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:13:25.449 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:25.449 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:13:25.449 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:13:25.451 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:25.451 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:13:25.451 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:13:25.453 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:13:25.453 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:25.454 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:13:25.454 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","authToken":null}
+2024-05-27 00:13:25.454 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","token":""}
+2024-05-27 00:13:25.455 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:13:25.455 +02:00 [INF] HTTP GET / responded 200 in 8.1343 ms
+2024-05-27 00:13:25.456 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 9.7043ms
+2024-05-27 00:13:25.496 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:13:25.497 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:13:25.497 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:13:25.497 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:13:25.497 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.5748 ms
+2024-05-27 00:13:25.498 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 2.174ms
+2024-05-27 00:13:25.908 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:13:25.908 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:13:25.909 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:13:25.909 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:25.910 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:13:25.910 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:25.910 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 0.8416 ms
+2024-05-27 00:13:25.910 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 2.6839ms
+2024-05-27 00:13:25.921 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:13:25.922 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:25.922 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 00:13:25.922 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:25.923 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 0.7407 ms
+2024-05-27 00:13:25.923 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 1.9596ms
+2024-05-27 00:13:25.927 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:13:25.927 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:13:25.927 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:13:25.927 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:13:25.927 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:13:25.928 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:13:25.928 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:25.928 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:25.928 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:13:25.929 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:25.929 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.5718 ms
+2024-05-27 00:13:25.929 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:13:25.929 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 1.7926ms
+2024-05-27 00:13:25.929 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:25.929 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.8849 ms
+2024-05-27 00:13:25.929 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 2.3954ms
+2024-05-27 00:13:25.935 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:13:25.935 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:13:25.936 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:13:25.936 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:13:25.936 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 1.1402ms
+2024-05-27 00:13:25.937 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.1573ms
+2024-05-27 00:13:46.628 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:13:46.630 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:13:46.631 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:13:46.632 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:13:46.632 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:13:46.632 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:13:46.633 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 00:13:46.633 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 00:13:46.634 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:13:46.635 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","Identity":{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}}
+2024-05-27 00:13:46.644 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:13:46.644 +02:00 [INF] HTTP GET / responded 200 in 14.3793 ms
+2024-05-27 00:13:46.646 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 17.1378ms
+2024-05-27 00:13:46.719 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/assets/icons8-google-16.png - null null
+2024-05-27 00:13:46.722 +02:00 [INF] Sending file. Request path: '/assets/icons8-google-16.png'. Physical path: 'C:\dev\Sites\tabito\wwwroot\assets\icons8-google-16.png'
+2024-05-27 00:13:46.723 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/assets/icons8-google-16.png - 200 644 image/png 3.9556ms
+2024-05-27 00:13:46.726 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/css/bootstrap.min.css - null null
+2024-05-27 00:13:46.727 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/css/app.css - null null
+2024-05-27 00:13:46.727 +02:00 [INF] The file /css/app.css was not modified
+2024-05-27 00:13:46.727 +02:00 [INF] The file /css/bootstrap.min.css was not modified
+2024-05-27 00:13:46.728 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/css/app.css - 304 null text/css 0.9945ms
+2024-05-27 00:13:46.728 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/css/bootstrap.min.css - 304 null text/css 1.6336ms
+2024-05-27 00:13:46.728 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Tabito.Web.styles.css - null null
+2024-05-27 00:13:46.728 +02:00 [INF] The file /Tabito.Web.styles.css was not modified
+2024-05-27 00:13:46.729 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Tabito.Web.styles.css - 304 null text/css 0.7373ms
+2024-05-27 00:13:46.730 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/bugdefender-scripts.js - null null
+2024-05-27 00:13:46.730 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_content/Blazor.Bootstrap/blazor.bootstrap.js - null null
+2024-05-27 00:13:46.732 +02:00 [INF] Sending file. Request path: '/_content/Blazor.Bootstrap/blazor.bootstrap.js'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_content\Blazor.Bootstrap\blazor.bootstrap.js'
+2024-05-27 00:13:46.732 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_content/Blazor.Bootstrap/blazor.bootstrap.js - 200 50927 text/javascript 2.8227ms
+2024-05-27 00:13:46.733 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/scripts.js - null null
+2024-05-27 00:13:46.733 +02:00 [INF] Sending file. Request path: '/js/bugdefender-scripts.js'. Physical path: 'C:\dev\Sites\tabito\wwwroot\js\bugdefender-scripts.js'
+2024-05-27 00:13:46.733 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/bugdefender-scripts.js - 200 1443 text/javascript 3.8456ms
+2024-05-27 00:13:46.734 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:13:46.733 +02:00 [INF] The file /js/scripts.js was not modified
+2024-05-27 00:13:46.734 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:13:46.734 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/scripts.js - 304 null text/javascript 1.6488ms
+2024-05-27 00:13:46.734 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:13:46.735 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:13:46.735 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.6722 ms
+2024-05-27 00:13:46.735 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 1.2574ms
+2024-05-27 00:13:46.735 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/util.js - null null
+2024-05-27 00:13:46.741 +02:00 [INF] Sending file. Request path: '/js/util.js'. Physical path: 'C:\dev\Sites\tabito\wwwroot\js\util.js'
+2024-05-27 00:13:46.742 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/util.js - 200 126 text/javascript 6.5092ms
+2024-05-27 00:13:46.765 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Tabito.Web.Client.bundle.scp.css - null null
+2024-05-27 00:13:46.767 +02:00 [INF] The file /Tabito.Web.Client.bundle.scp.css was not modified
+2024-05-27 00:13:46.771 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Tabito.Web.Client.bundle.scp.css - 304 null text/css 5.2636ms
+2024-05-27 00:13:47.234 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js - null null
+2024-05-27 00:13:47.236 +02:00 [INF] Sending file. Request path: '/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_content\Microsoft.FluentUI.AspNetCore.Components\Microsoft.FluentUI.AspNetCore.Components.lib.module.js'
+2024-05-27 00:13:47.237 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js - 499 389715 text/javascript 2.0359ms
+2024-05-27 00:13:47.299 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:13:47.300 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.300 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:13:47.301 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.301 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 0.8716 ms
+2024-05-27 00:13:47.301 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 1.9195ms
+2024-05-27 00:13:47.317 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:13:47.317 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.319 +02:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\blazor.boot.json.br'
+2024-05-27 00:13:47.319 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.320 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 200 in 1.8465 ms
+2024-05-27 00:13:47.320 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 200 7513 application/json 3.3211ms
+2024-05-27 00:13:47.349 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:13:47.349 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.349 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:13:47.350 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.350 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:13:47.350 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.351 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.4180 ms
+2024-05-27 00:13:47.351 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:13:47.351 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.351 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 1.5559 ms
+2024-05-27 00:13:47.351 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 2.8043ms
+2024-05-27 00:13:47.352 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 2.1035ms
+2024-05-27 00:13:47.375 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:13:47.375 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:13:47.375 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:13:47.375 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 0.8231ms
+2024-05-27 00:13:47.376 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:13:47.376 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 1.564ms
+2024-05-27 00:13:47.399 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm - null null
+2024-05-27 00:13:47.400 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.402 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Share.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Share.wasm.br'
+2024-05-27 00:13:47.402 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.402 +02:00 [INF] HTTP GET /_framework/Tabito.Share.wasm.br responded 200 in 2.1715 ms
+2024-05-27 00:13:47.402 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm.br - 200 10286 application/wasm 2.6707ms
+2024-05-27 00:13:47.399 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm - null null
+2024-05-27 00:13:47.407 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.409 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Web.Client.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Web.Client.wasm.br'
+2024-05-27 00:13:47.409 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:47.409 +02:00 [INF] HTTP GET /_framework/Tabito.Web.Client.wasm.br responded 200 in 2.1781 ms
+2024-05-27 00:13:47.410 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm.br - 200 64425 application/wasm 10.5531ms
+2024-05-27 00:13:48.255 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - application/x-www-form-urlencoded 217
+2024-05-27 00:13:48.255 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:13:48.255 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:13:48.257 +02:00 [INF] Executing endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 00:13:48.257 +02:00 [INF] IAppLogger:IdentityComponentsEndpointRouteBuilderExtensions:
+2024-05-27 00:13:48.257 +02:00 [INF] Executing ChallengeResult with authentication schemes (["MyGoogleScheme"]).
+2024-05-27 00:13:48.258 +02:00 [INF] AuthenticationScheme: MyGoogleScheme was challenged.
+2024-05-27 00:13:48.258 +02:00 [INF] Executed endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 00:13:48.258 +02:00 [INF] HTTP POST /Account/PerformExternalLogin responded 302 in 2.7486 ms
+2024-05-27 00:13:48.259 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - 302 null null 3.6378ms
+2024-05-27 00:13:48.748 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTJdCSkbf8BsprP0sxLEENiqnTp5HKklwTy2fROibXI1F2ibVQY2StMzi7qxjNn2O24Zg2y4UPkzrMhpe00E4XrsLw8EZuUcxUMvVbOrWrhRZf4_nRFrz1-ta9CXlPdabL7jD7gMFdgHkM9UX1A1h0ch26FsuHzKTX9PuzB10jpOLLTn2BIyzWNZ0L8hZx6hBQGPVhDQ37NYNXRt59HFRVht-aG35zFA6viPduFbnE0TJt7p_pF9IikLQTnNHEeu7pbeURtFZCqf-YQ0ujyHB1JVvCEbBFBaPnafyFX1TFZtE1n_3pYrKob_t7-K9B5WdnsCWvJ0cGo8w1V12Vv6IuASEyRe_5XOSmQGb6rOrwbnC3KvKCZGDX7pt1QO-7PGGJA&code=4%2F0AdLIrYeGFzVaEwlxXxdPGc8SbPvPaSPXhAZGz0XmDq6fPR_-DYAFySPChImBVfNCzMhPvA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none - null null
+2024-05-27 00:13:49.152 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2024-05-27 00:13:49.152 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTJdCSkbf8BsprP0sxLEENiqnTp5HKklwTy2fROibXI1F2ibVQY2StMzi7qxjNn2O24Zg2y4UPkzrMhpe00E4XrsLw8EZuUcxUMvVbOrWrhRZf4_nRFrz1-ta9CXlPdabL7jD7gMFdgHkM9UX1A1h0ch26FsuHzKTX9PuzB10jpOLLTn2BIyzWNZ0L8hZx6hBQGPVhDQ37NYNXRt59HFRVht-aG35zFA6viPduFbnE0TJt7p_pF9IikLQTnNHEeu7pbeURtFZCqf-YQ0ujyHB1JVvCEbBFBaPnafyFX1TFZtE1n_3pYrKob_t7-K9B5WdnsCWvJ0cGo8w1V12Vv6IuASEyRe_5XOSmQGb6rOrwbnC3KvKCZGDX7pt1QO-7PGGJA&code=4%2F0AdLIrYeGFzVaEwlxXxdPGc8SbPvPaSPXhAZGz0XmDq6fPR_-DYAFySPChImBVfNCzMhPvA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none - 302 null null 404.6218ms
+2024-05-27 00:13:49.158 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - null null
+2024-05-27 00:13:49.159 +02:00 [INF] Executing endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 00:13:49.160 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:13:49.161 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgvVca0PPU8a-_XRl4OMm0Wqo5Xe5ugQkhm0wjhoYmBpW0iyv51hx_0Fzmv1BbKmsYe5imK6ARcWkPTaoenSJvUEMDGgEKyh805wd09ydIpgG2_AQDH7sHt3rRy3-SwTCfFeez7HOjsejNuXuXSO107WYSZmIAaCgYKAQISARASFQHGX2MiMDqTSNE5p4_QnuIOYn4UQA0169"}}
+2024-05-27 00:13:49.161 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:13:49.162 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgvVca0PPU8a-_XRl4OMm0Wqo5Xe5ugQkhm0wjhoYmBpW0iyv51hx_0Fzmv1BbKmsYe5imK6ARcWkPTaoenSJvUEMDGgEKyh805wd09ydIpgG2_AQDH7sHt3rRy3-SwTCfFeez7HOjsejNuXuXSO107WYSZmIAaCgYKAQISARASFQHGX2MiMDqTSNE5p4_QnuIOYn4UQA0169"}}
+2024-05-27 00:13:49.164 +02:00 [INF] IAppLogger:OnLoginCallbackAsync: rjara001@gmail.com
+2024-05-27 00:13:49.255 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-05-27 00:13:49.257 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-05-27 00:13:49.257 +02:00 [INF] Rodrigo Jara logged in with MyGoogleScheme provider.
+2024-05-27 00:13:49.257 +02:00 [INF] IAppLogger:{"TableActive":null,"Name":"rjara001@gmail.com","Token":"ya29.a0AXooCgvVca0PP","Picture":"https://lh3.googleusercontent.com/a/ACg8ocJFH6JGNVKO42Bqhw7tkJbFTMcMDllRp-HzpZi3F39bqx7f-Q=s96-c","Tables":{},"Drive":{"IdFile":null,"IdFolder":null}}
+2024-05-27 00:13:49.259 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:13:49.259 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","Identity":{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}}
+2024-05-27 00:13:49.260 +02:00 [INF] Executed endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 00:13:49.260 +02:00 [INF] HTTP GET /Account/ExternalLogin responded 302 in 100.8492 ms
+2024-05-27 00:13:49.260 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - 302 null text/html; charset=utf-8 101.9114ms
+2024-05-27 00:13:49.262 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:13:49.263 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:13:49.264 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:49.264 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:13:49.265 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:49.265 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:13:49.267 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:13:49.267 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:13:49.268 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","authToken":null}
+2024-05-27 00:13:49.268 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","token":""}
+2024-05-27 00:13:49.269 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:13:49.270 +02:00 [INF] HTTP GET / responded 200 in 6.8281 ms
+2024-05-27 00:13:49.270 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 7.8959ms
+2024-05-27 00:13:49.290 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:13:49.291 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:13:49.292 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:13:49.292 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:13:49.292 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.6721 ms
+2024-05-27 00:13:49.292 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 2.366ms
+2024-05-27 00:13:49.297 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/assets/user.png - null null
+2024-05-27 00:13:49.300 +02:00 [INF] Sending file. Request path: '/assets/user.png'. Physical path: 'C:\dev\Sites\tabito\wwwroot\assets\user.png'
+2024-05-27 00:13:49.300 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/assets/user.png - 200 761 image/png 3.1757ms
+2024-05-27 00:13:49.375 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:13:49.375 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:49.376 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:13:49.376 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:49.376 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 0.5814 ms
+2024-05-27 00:13:49.376 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 1.467ms
+2024-05-27 00:13:49.381 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:13:49.381 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:49.382 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 00:13:49.382 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:49.382 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 0.5238 ms
+2024-05-27 00:13:49.382 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 1.4144ms
+2024-05-27 00:13:49.390 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:13:49.390 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:13:49.390 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:49.390 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:49.391 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:13:49.391 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:13:49.391 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:49.391 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:13:49.391 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.5573 ms
+2024-05-27 00:13:49.391 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.6358 ms
+2024-05-27 00:13:49.391 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 1.345ms
+2024-05-27 00:13:49.391 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 1.3796ms
+2024-05-27 00:13:49.406 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:13:49.406 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:13:49.407 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:13:49.407 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:13:49.407 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.3393ms
+2024-05-27 00:13:49.407 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 1.3582ms
+2024-05-27 00:14:08.867 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:7070/Account/Logout - application/x-www-form-urlencoded 239
+2024-05-27 00:14:08.868 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:14:08.868 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:14:08.870 +02:00 [INF] Executing endpoint 'HTTP: POST /Account/Logout'
+2024-05-27 00:14:09.036 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-05-27 00:14:09.037 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-05-27 00:14:09.037 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-05-27 00:14:09.039 +02:00 [INF] Executing RedirectResult, redirecting to /.
+2024-05-27 00:14:09.040 +02:00 [INF] Executed endpoint 'HTTP: POST /Account/Logout'
+2024-05-27 00:14:09.041 +02:00 [INF] HTTP POST /Account/Logout responded 302 in 171.5910 ms
+2024-05-27 00:14:09.042 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:7070/Account/Logout - 302 null null 175.0713ms
+2024-05-27 00:14:09.058 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:14:09.058 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:14:09.059 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:14:09.059 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:14:09.060 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:14:09.060 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:14:09.060 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 00:14:09.060 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 00:14:09.061 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:14:09.061 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","Identity":{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}}
+2024-05-27 00:14:09.062 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:14:09.062 +02:00 [INF] HTTP GET / responded 200 in 3.8496 ms
+2024-05-27 00:14:09.062 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 4.3556ms
+2024-05-27 00:14:09.117 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:14:09.118 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:14:09.118 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:14:09.118 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:14:09.118 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.3733 ms
+2024-05-27 00:14:09.118 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 0.9229ms
+2024-05-27 00:14:09.217 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:14:09.217 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:14:09.218 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:14:09.218 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:14:09.218 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 0.7768 ms
+2024-05-27 00:14:09.218 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 1.32ms
+2024-05-27 00:14:09.239 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:14:09.240 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:14:09.240 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 00:14:09.240 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:14:09.240 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 0.5668 ms
+2024-05-27 00:14:09.241 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 1.0857ms
+2024-05-27 00:14:09.247 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:14:09.247 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:14:09.248 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:14:09.248 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:14:09.248 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:14:09.248 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:14:09.248 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:14:09.248 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:14:09.248 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.6907 ms
+2024-05-27 00:14:09.248 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.6141 ms
+2024-05-27 00:14:09.249 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 1.2596ms
+2024-05-27 00:14:09.249 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 1.2494ms
+2024-05-27 00:14:09.264 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:14:09.264 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:14:09.264 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:14:09.265 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 0.6434ms
+2024-05-27 00:14:09.265 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:14:09.265 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 0.489ms
+2024-05-27 00:14:10.769 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - application/x-www-form-urlencoded 217
+2024-05-27 00:14:10.770 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:14:10.770 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:14:10.771 +02:00 [INF] Executing endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 00:14:10.771 +02:00 [INF] IAppLogger:IdentityComponentsEndpointRouteBuilderExtensions:
+2024-05-27 00:14:10.771 +02:00 [INF] Executing ChallengeResult with authentication schemes (["MyGoogleScheme"]).
+2024-05-27 00:14:10.772 +02:00 [INF] AuthenticationScheme: MyGoogleScheme was challenged.
+2024-05-27 00:14:10.772 +02:00 [INF] Executed endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 00:14:10.772 +02:00 [INF] HTTP POST /Account/PerformExternalLogin responded 302 in 2.0910 ms
+2024-05-27 00:14:10.773 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - 302 null null 3.8985ms
+2024-05-27 00:20:02.582 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTK74kv7gfPnYIl1c8McAm5cKtuewdsImvnHVq-R1T_VmAJkg0pe20hLU58IV0E08uWJjL58U2TMuDq8Jdc9gJTKQjYfAYisSVitCwtXAriwjYveyMIO-q6sUYCQqKQ142tXTLF1QmfTJdaDrc9aB5pFuxyqD2Ovrg8XSy9coCsktC19Ws3ptkdEJ7YJ2owN9kZCFpmkELvBClB9isg2YgmirQpoH32VPP60pTixFBf7k2rLI3Lkpd5UbciiDLCoTI3FL-eKkjR4bE0oGKQnoOs7yerw7L0JddO9dvzCSobp4YWRFTrHTqgDmNciryCMsLibj42-uZg7LpiLdObE9QBO9EHAsOCOSlciHTvdCqpTs_EZk93P9ZpL7a0txCjhaVI&code=4/0AdLIrYfcs9DNKKgWoc-u0fA08N5k_TfqOTC3RLgJrOJeIV6is3nS2vwxDgYBfHZsg6jCtQ&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=1&prompt=consent - null null
+2024-05-27 00:20:02.902 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2024-05-27 00:20:02.903 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTK74kv7gfPnYIl1c8McAm5cKtuewdsImvnHVq-R1T_VmAJkg0pe20hLU58IV0E08uWJjL58U2TMuDq8Jdc9gJTKQjYfAYisSVitCwtXAriwjYveyMIO-q6sUYCQqKQ142tXTLF1QmfTJdaDrc9aB5pFuxyqD2Ovrg8XSy9coCsktC19Ws3ptkdEJ7YJ2owN9kZCFpmkELvBClB9isg2YgmirQpoH32VPP60pTixFBf7k2rLI3Lkpd5UbciiDLCoTI3FL-eKkjR4bE0oGKQnoOs7yerw7L0JddO9dvzCSobp4YWRFTrHTqgDmNciryCMsLibj42-uZg7LpiLdObE9QBO9EHAsOCOSlciHTvdCqpTs_EZk93P9ZpL7a0txCjhaVI&code=4/0AdLIrYfcs9DNKKgWoc-u0fA08N5k_TfqOTC3RLgJrOJeIV6is3nS2vwxDgYBfHZsg6jCtQ&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=1&prompt=consent - 302 null null 321.0468ms
+2024-05-27 00:20:02.907 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - null null
+2024-05-27 00:20:02.908 +02:00 [INF] Executing endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 00:20:02.909 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:20:02.910 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgs9gOV25A2p6x-QJub0lhZa8_ubBl7M8w24rIeZ2J29xleMFGPddezYDAfFLMcDspiJDdSqsP796dRwzYdqno5t_UNey7AwjCQNJSD-4rtq3ZDM--LXZ7E1NOASIRDw9YSerbSwbFwiMZWZsSg3jz3obwNfZtdGaCgYKAakSARASFQHGX2Mip_ZM0Jk5D33JYaOybPFkOw0171"}}
+2024-05-27 00:20:02.911 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","user":[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]}
+2024-05-27 00:20:02.911 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgs9gOV25A2p6x-QJub0lhZa8_ubBl7M8w24rIeZ2J29xleMFGPddezYDAfFLMcDspiJDdSqsP796dRwzYdqno5t_UNey7AwjCQNJSD-4rtq3ZDM--LXZ7E1NOASIRDw9YSerbSwbFwiMZWZsSg3jz3obwNfZtdGaCgYKAakSARASFQHGX2Mip_ZM0Jk5D33JYaOybPFkOw0171"}}
+2024-05-27 00:20:02.914 +02:00 [INF] IAppLogger:OnLoginCallbackAsync: verymatch.net@gmail.com
+2024-05-27 00:20:02.944 +02:00 [INF] Saved 1 entities to in-memory store.
+2024-05-27 00:20:02.946 +02:00 [INF] Saved 2 entities to in-memory store.
+2024-05-27 00:20:02.946 +02:00 [INF] User created an account using MyGoogleScheme provider.
+2024-05-27 00:20:02.947 +02:00 [INF] IAppLogger:{"TableActive":null,"Name":"verymatch.net@gmail.com","Token":"ya29.a0AXooCgs9gOV25","Picture":"https://lh3.googleusercontent.com/a/ACg8ocL9-Z2vuXvSy19Q-zsAZ9ZfUJOwIVFS2uzepdmfM1Lqvho9BQ=s96-c","Tables":{},"Drive":{"IdFile":null,"IdFolder":null}}
+2024-05-27 00:20:02.948 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-05-27 00:20:02.949 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:20:02.949 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","Identity":{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}}
+2024-05-27 00:20:02.950 +02:00 [INF] Executed endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 00:20:02.950 +02:00 [INF] HTTP GET /Account/ExternalLogin responded 302 in 42.6653 ms
+2024-05-27 00:20:02.951 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - 302 null text/html; charset=utf-8 43.876ms
+2024-05-27 00:20:02.956 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:20:02.957 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:20:02.958 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:20:02.959 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgs9gOV25A2p6x-QJub0lhZa8_ubBl7M8w24rIeZ2J29xleMFGPddezYDAfFLMcDspiJDdSqsP796dRwzYdqno5t_UNey7AwjCQNJSD-4rtq3ZDM--LXZ7E1NOASIRDw9YSerbSwbFwiMZWZsSg3jz3obwNfZtdGaCgYKAakSARASFQHGX2Mip_ZM0Jk5D33JYaOybPFkOw0171"}}
+2024-05-27 00:20:02.960 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:20:02.960 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgs9gOV25A2p6x-QJub0lhZa8_ubBl7M8w24rIeZ2J29xleMFGPddezYDAfFLMcDspiJDdSqsP796dRwzYdqno5t_UNey7AwjCQNJSD-4rtq3ZDM--LXZ7E1NOASIRDw9YSerbSwbFwiMZWZsSg3jz3obwNfZtdGaCgYKAakSARASFQHGX2Mip_ZM0Jk5D33JYaOybPFkOw0171"}}
+2024-05-27 00:20:02.963 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:20:02.963 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:20:02.963 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","authToken":{"Name":"access_token","Value":"ya29.a0AXooCgs9gOV25A2p6x-QJub0lhZa8_ubBl7M8w24rIeZ2J29xleMFGPddezYDAfFLMcDspiJDdSqsP796dRwzYdqno5t_UNey7AwjCQNJSD-4rtq3ZDM--LXZ7E1NOASIRDw9YSerbSwbFwiMZWZsSg3jz3obwNfZtdGaCgYKAakSARASFQHGX2Mip_ZM0Jk5D33JYaOybPFkOw0171"}}
+2024-05-27 00:20:02.964 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","token":"ya29.a0AXooCgs9gOV25A2p6x-QJub0lhZa8_ubBl7M8w24rIeZ2J29xleMFGPddezYDAfFLMcDspiJDdSqsP796dRwzYdqno5t_UNey7AwjCQNJSD-4rtq3ZDM--LXZ7E1NOASIRDw9YSerbSwbFwiMZWZsSg3jz3obwNfZtdGaCgYKAakSARASFQHGX2Mip_ZM0Jk5D33JYaOybPFkOw0171"}
+2024-05-27 00:20:02.965 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:20:02.965 +02:00 [INF] HTTP GET / responded 200 in 7.9947 ms
+2024-05-27 00:20:02.966 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 9.4198ms
+2024-05-27 00:20:03.022 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:20:03.024 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:20:03.024 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:20:03.025 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:20:03.025 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.8058 ms
+2024-05-27 00:20:03.025 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 2.8784ms
+2024-05-27 00:20:03.123 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:20:03.124 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:20:03.125 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:20:03.125 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:20:03.125 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 0.7828 ms
+2024-05-27 00:20:03.125 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 2ms
+2024-05-27 00:20:03.138 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:20:03.139 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:20:03.139 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 00:20:03.139 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:20:03.139 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 0.4689 ms
+2024-05-27 00:20:03.139 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 1.3263ms
+2024-05-27 00:20:03.144 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:20:03.145 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:20:03.145 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:20:03.145 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:20:03.145 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:20:03.146 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.5769 ms
+2024-05-27 00:20:03.146 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 1.4574ms
+2024-05-27 00:20:03.146 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:20:03.146 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:20:03.146 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:20:03.146 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.5522 ms
+2024-05-27 00:20:03.147 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 1.1788ms
+2024-05-27 00:20:03.170 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:20:03.170 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:20:03.171 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:20:03.171 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:20:03.171 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 0.9147ms
+2024-05-27 00:20:03.171 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 0.7228ms
+2024-05-27 00:27:11.828 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/work/tables - null null
+2024-05-27 00:27:11.830 +02:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2024-05-27 00:27:11.830 +02:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2024-05-27 00:27:11.830 +02:00 [INF] HTTP GET /work/tables responded 302 in 0.4144 ms
+2024-05-27 00:27:11.830 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/work/tables - 302 null null 2.2014ms
+2024-05-27 00:27:11.832 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:27:11.833 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:27:11.834 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:27:11.834 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:27:11.834 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:27:11.834 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:27:11.835 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:27:11.835 +02:00 [INF] IAppLogger:{"context":"GetAuthenticationStateAsync","authToken":null}
+2024-05-27 00:27:11.836 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync"}
+2024-05-27 00:27:11.836 +02:00 [INF] IAppLogger:No serialized
+2024-05-27 00:27:11.836 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:27:11.836 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","authToken":null}
+2024-05-27 00:27:11.836 +02:00 [INF] IAppLogger:{"context":"OnPersistingAsync","token":""}
+2024-05-27 00:27:11.837 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:27:11.837 +02:00 [INF] HTTP GET / responded 200 in 4.1796 ms
+2024-05-27 00:27:11.837 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 4.9751ms
+2024-05-27 00:27:11.854 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:27:11.855 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:27:11.855 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:27:11.855 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:27:11.855 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.3731 ms
+2024-05-27 00:27:11.855 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 1.269ms
+2024-05-27 00:27:11.936 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:27:11.936 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:27:11.936 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:27:11.937 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:11.937 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:27:11.937 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:11.937 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 0.4865 ms
+2024-05-27 00:27:11.937 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 1.3758ms
+2024-05-27 00:27:11.943 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:27:11.943 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:11.944 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 00:27:11.944 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:11.944 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 0.7741 ms
+2024-05-27 00:27:11.944 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 1.6932ms
+2024-05-27 00:27:11.949 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:27:11.949 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:27:11.949 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:27:11.949 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:27:11.949 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:27:11.949 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:27:11.950 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:11.950 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:11.950 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:27:11.950 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:27:11.950 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:11.950 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:11.950 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.5370 ms
+2024-05-27 00:27:11.950 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.5004 ms
+2024-05-27 00:27:11.951 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 2.2402ms
+2024-05-27 00:27:11.951 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 2.5604ms
+2024-05-27 00:27:11.951 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:27:11.952 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:27:11.952 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:27:11.952 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:27:11.952 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 1.2703ms
+2024-05-27 00:27:11.953 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.079ms
+2024-05-27 00:27:48.083 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.js.map - null null
+2024-05-27 00:27:48.084 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.map - null null
+2024-05-27 00:27:48.084 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:48.085 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:48.085 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:48.085 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:27:48.085 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.js.map responded 404 in 0.6238 ms
+2024-05-27 00:27:48.085 +02:00 [INF] HTTP GET /_framework/dotnet.js.map responded 404 in 0.4165 ms
+2024-05-27 00:27:48.086 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.js.map - 404 null null 3.2809ms
+2024-05-27 00:27:48.086 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.map - 404 null null 2.339ms
+2024-05-27 00:27:48.087 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7070/_framework/dotnet.js.map, Response status code: 404
+2024-05-27 00:27:48.087 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7070/_framework/dotnet.runtime.js.map, Response status code: 404
+2024-05-27 00:27:48.097 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/css/bootstrap.min.css.map - null null
+2024-05-27 00:27:48.098 +02:00 [INF] The file /css/bootstrap.min.css.map was not modified
+2024-05-27 00:27:48.098 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/css/bootstrap.min.css.map - 304 null text/plain 1.109ms
+2024-05-27 00:48:20.619 +02:00 [INF] Application is shutting down...
+2024-05-27 00:59:28.182 +02:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1786104054-2076035681-1748046384-302233383-2924927588\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-27 00:59:28.313 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 00:59:28.313 +02:00 [INF] Hosting environment: Production
+2024-05-27 00:59:28.313 +02:00 [INF] Content root path: C:\dev\Sites\tabito
+2024-05-27 00:59:28.323 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:59:28.647 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-05-27 00:59:28.648 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-05-27 00:59:28.649 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-05-27 00:59:28.649 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorRememberMe signed out.
+2024-05-27 00:59:28.650 +02:00 [INF] Identity.Application was not authenticated. Failure message: No principal.
+2024-05-27 00:59:28.652 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 00:59:28.653 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:59:28.729 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 00:59:28.730 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:59:28.731 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 00:59:28.742 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 00:59:28.742 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 00:59:28.742 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 00:59:28.743 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 00:59:28.746 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 00:59:28.783 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 00:59:28.784 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 00:59:28.792 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:59:28.793 +02:00 [INF] HTTP GET / responded 200 in 139.9127 ms
+2024-05-27 00:59:28.799 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 476.1504ms
+2024-05-27 00:59:28.828 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:59:28.832 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:59:28.835 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:59:28.836 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:59:28.836 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 4.7225 ms
+2024-05-27 00:59:28.837 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 9.7021ms
+2024-05-27 00:59:29.050 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:59:29.052 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:59:29.053 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:59:29.055 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.058 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:59:29.059 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.059 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 4.0438 ms
+2024-05-27 00:59:29.059 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 9.6154ms
+2024-05-27 00:59:29.063 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:59:29.064 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.066 +02:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\blazor.boot.json.br'
+2024-05-27 00:59:29.066 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.067 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 200 in 3.0160 ms
+2024-05-27 00:59:29.067 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 200 7516 application/json 3.6849ms
+2024-05-27 00:59:29.071 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:59:29.071 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:59:29.071 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:59:29.071 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:59:29.071 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:59:29.072 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:59:29.072 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.072 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.072 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:59:29.072 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.072 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.5169 ms
+2024-05-27 00:59:29.072 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:59:29.073 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.073 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.7612 ms
+2024-05-27 00:59:29.073 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 1.9087ms
+2024-05-27 00:59:29.073 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 2.1632ms
+2024-05-27 00:59:29.077 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:59:29.077 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:59:29.078 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:59:29.078 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:59:29.079 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.6114ms
+2024-05-27 00:59:29.079 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 2.0548ms
+2024-05-27 00:59:29.099 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm - null null
+2024-05-27 00:59:29.099 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm - null null
+2024-05-27 00:59:29.099 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.099 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.103 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Web.Client.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Web.Client.wasm.br'
+2024-05-27 00:59:29.103 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Share.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Share.wasm.br'
+2024-05-27 00:59:29.104 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.104 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:29.105 +02:00 [INF] HTTP GET /_framework/Tabito.Share.wasm.br responded 200 in 5.4266 ms
+2024-05-27 00:59:29.105 +02:00 [INF] HTTP GET /_framework/Tabito.Web.Client.wasm.br responded 200 in 5.2715 ms
+2024-05-27 00:59:29.107 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm.br - 200 10442 application/wasm 7.579ms
+2024-05-27 00:59:29.107 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm.br - 200 64572 application/wasm 8.4463ms
+2024-05-27 00:59:48.082 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - application/x-www-form-urlencoded 217
+2024-05-27 00:59:48.083 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:59:48.083 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:59:48.096 +02:00 [INF] Executing endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 00:59:48.105 +02:00 [INF] IAppLogger:IdentityComponentsEndpointRouteBuilderExtensions:
+2024-05-27 00:59:48.108 +02:00 [INF] Executing ChallengeResult with authentication schemes (["MyGoogleScheme"]).
+2024-05-27 00:59:48.125 +02:00 [INF] AuthenticationScheme: MyGoogleScheme was challenged.
+2024-05-27 00:59:48.126 +02:00 [INF] Executed endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 00:59:48.126 +02:00 [INF] HTTP POST /Account/PerformExternalLogin responded 302 in 42.5394 ms
+2024-05-27 00:59:48.127 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - 302 null null 45.7885ms
+2024-05-27 00:59:51.830 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTJN92NjYO-u2eDhp_4vVivCkxoexVCGBqxRU4V4s3B139-USUTAt1DYs5O1eMMOICiTjD_F6sZe72VxWy5tCOWwOmCCdRE4x8T4Ch3chPj8iCxQteJOaIq6W9CymQtz69wYXc1uXQ8peSKH-ZZSpZCaNkfEts30K_MYF84KHhFlwV8wqBYwqU4myEscEGSEpBL-szxvyfMiB2FHVh1-JI-lJ0ugxdz5qwkfiX9FvpZFyL3A6H3zZWSO62tbvJZTp7Ep6usFEAZO02KKH4-9eluXZySfZeSxXnSL0fFf_v3Y3ePl7tc9foRG8Or7zGAJ327IJKGDjdYtEW78-vAVeWVQ5cnNqsXQoKAkGcNjHZtouZyxAvElKefOSE9Z4CG9cGo&code=4/0AdLIrYfc-iuHuhFzxq6dIQk3Dmh2qB01Eot1vAZdwQ59vbCRogIyX1AxjZ0eez62tcMoWg&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent - null null
+2024-05-27 00:59:52.377 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2024-05-27 00:59:52.378 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTJN92NjYO-u2eDhp_4vVivCkxoexVCGBqxRU4V4s3B139-USUTAt1DYs5O1eMMOICiTjD_F6sZe72VxWy5tCOWwOmCCdRE4x8T4Ch3chPj8iCxQteJOaIq6W9CymQtz69wYXc1uXQ8peSKH-ZZSpZCaNkfEts30K_MYF84KHhFlwV8wqBYwqU4myEscEGSEpBL-szxvyfMiB2FHVh1-JI-lJ0ugxdz5qwkfiX9FvpZFyL3A6H3zZWSO62tbvJZTp7Ep6usFEAZO02KKH4-9eluXZySfZeSxXnSL0fFf_v3Y3ePl7tc9foRG8Or7zGAJ327IJKGDjdYtEW78-vAVeWVQ5cnNqsXQoKAkGcNjHZtouZyxAvElKefOSE9Z4CG9cGo&code=4/0AdLIrYfc-iuHuhFzxq6dIQk3Dmh2qB01Eot1vAZdwQ59vbCRogIyX1AxjZ0eez62tcMoWg&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent - 302 null null 547.6204ms
+2024-05-27 00:59:52.381 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - null null
+2024-05-27 00:59:52.383 +02:00 [INF] Executing endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 00:59:52.409 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 00:59:52.415 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtUHV-svdVI8bFbOAjjx1-27FtmfNlTEVsGhitE-Pdbr7aXcFPSz_kTLflHhh9QTfL7nagVJRypHgoUOHdEKYr6D1ppyzNU4E7HPY3aZphS7jm2V6SRB_9DVbAaGVlJf9D90lIKCklx2bQkcYV1Bmp877JomsqYaCgYKAcESARASFQHGX2MiN4jEOXaGxlmj4H_QubBA8Q0171"}
+2024-05-27 00:59:52.418 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 00:59:52.418 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtUHV-svdVI8bFbOAjjx1-27FtmfNlTEVsGhitE-Pdbr7aXcFPSz_kTLflHhh9QTfL7nagVJRypHgoUOHdEKYr6D1ppyzNU4E7HPY3aZphS7jm2V6SRB_9DVbAaGVlJf9D90lIKCklx2bQkcYV1Bmp877JomsqYaCgYKAcESARASFQHGX2MiN4jEOXaGxlmj4H_QubBA8Q0171"}
+2024-05-27 00:59:52.445 +02:00 [INF] IAppLogger:OnLoginCallbackAsync: rjara001@gmail.com
+2024-05-27 00:59:52.787 +02:00 [INF] Saved 1 entities to in-memory store.
+2024-05-27 00:59:52.857 +02:00 [INF] Saved 2 entities to in-memory store.
+2024-05-27 00:59:52.858 +02:00 [INF] User created an account using MyGoogleScheme provider.
+2024-05-27 00:59:52.900 +02:00 [INF] IAppLogger:LoadInfoUser:{"TableActive":null,"Name":"rjara001@gmail.com","Token":"ya29.a0AXooCgtUHV-sv","Picture":"https://lh3.googleusercontent.com/a/ACg8ocJFH6JGNVKO42Bqhw7tkJbFTMcMDllRp-HzpZi3F39bqx7f-Q=s96-c","Tables":{},"Drive":{"IdFile":null,"IdFolder":null}}
+2024-05-27 00:59:52.939 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-05-27 00:59:52.943 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 00:59:52.943 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 00:59:52.944 +02:00 [INF] Executed endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 00:59:52.944 +02:00 [INF] HTTP GET /Account/ExternalLogin responded 302 in 561.3782 ms
+2024-05-27 00:59:52.946 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - 302 null text/html; charset=utf-8 565.4403ms
+2024-05-27 00:59:52.947 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 00:59:52.950 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 00:59:52.972 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:No serialized
+2024-05-27 00:59:52.973 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtUHV-svdVI8bFbOAjjx1-27FtmfNlTEVsGhitE-Pdbr7aXcFPSz_kTLflHhh9QTfL7nagVJRypHgoUOHdEKYr6D1ppyzNU4E7HPY3aZphS7jm2V6SRB_9DVbAaGVlJf9D90lIKCklx2bQkcYV1Bmp877JomsqYaCgYKAcESARASFQHGX2MiN4jEOXaGxlmj4H_QubBA8Q0171"}
+2024-05-27 00:59:52.978 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:No serialized
+2024-05-27 00:59:52.978 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtUHV-svdVI8bFbOAjjx1-27FtmfNlTEVsGhitE-Pdbr7aXcFPSz_kTLflHhh9QTfL7nagVJRypHgoUOHdEKYr6D1ppyzNU4E7HPY3aZphS7jm2V6SRB_9DVbAaGVlJf9D90lIKCklx2bQkcYV1Bmp877JomsqYaCgYKAcESARASFQHGX2MiN4jEOXaGxlmj4H_QubBA8Q0171"}
+2024-05-27 00:59:53.013 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 00:59:53.014 +02:00 [INF] IAppLogger:OnPersistingAsync:No serialized
+2024-05-27 00:59:53.015 +02:00 [INF] IAppLogger:OnPersistingAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtUHV-svdVI8bFbOAjjx1-27FtmfNlTEVsGhitE-Pdbr7aXcFPSz_kTLflHhh9QTfL7nagVJRypHgoUOHdEKYr6D1ppyzNU4E7HPY3aZphS7jm2V6SRB_9DVbAaGVlJf9D90lIKCklx2bQkcYV1Bmp877JomsqYaCgYKAcESARASFQHGX2MiN4jEOXaGxlmj4H_QubBA8Q0171"}
+2024-05-27 00:59:53.016 +02:00 [INF] IAppLogger:OnPersistingAsync:"ya29.a0AXooCgtUHV-svdVI8bFbOAjjx1-27FtmfNlTEVsGhitE-Pdbr7aXcFPSz_kTLflHhh9QTfL7nagVJRypHgoUOHdEKYr6D1ppyzNU4E7HPY3aZphS7jm2V6SRB_9DVbAaGVlJf9D90lIKCklx2bQkcYV1Bmp877JomsqYaCgYKAcESARASFQHGX2MiN4jEOXaGxlmj4H_QubBA8Q0171"
+2024-05-27 00:59:53.020 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 00:59:53.020 +02:00 [INF] HTTP GET / responded 200 in 70.4185 ms
+2024-05-27 00:59:53.024 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 77.3235ms
+2024-05-27 00:59:53.049 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 00:59:53.052 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 00:59:53.053 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 00:59:53.053 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 00:59:53.053 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.1906 ms
+2024-05-27 00:59:53.054 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 4.8208ms
+2024-05-27 00:59:53.160 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 00:59:53.161 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:59:53.161 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:59:53.162 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:53.163 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 00:59:53.163 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:53.163 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 1.0147 ms
+2024-05-27 00:59:53.163 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 2.8141ms
+2024-05-27 00:59:53.171 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 00:59:53.172 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:53.173 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 00:59:53.173 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:53.174 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 1.3140 ms
+2024-05-27 00:59:53.174 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 3.0597ms
+2024-05-27 00:59:53.178 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 00:59:53.178 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 00:59:53.178 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:59:53.178 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 00:59:53.178 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:59:53.178 +02:00 [INF] CORS policy execution successful.
+2024-05-27 00:59:53.179 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:53.179 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:53.180 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 00:59:53.180 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 00:59:53.180 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:53.180 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 00:59:53.180 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.8203 ms
+2024-05-27 00:59:53.180 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.8550 ms
+2024-05-27 00:59:53.180 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 2.5585ms
+2024-05-27 00:59:53.180 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 2.5585ms
+2024-05-27 00:59:53.186 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 00:59:53.186 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 00:59:53.187 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 00:59:53.187 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 00:59:53.188 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 1.7662ms
+2024-05-27 00:59:53.188 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.6566ms
+2024-05-27 01:03:23.071 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 01:03:23.074 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 01:03:23.076 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 01:03:23.076 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 01:03:23.078 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 01:03:23.078 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 01:03:23.078 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 01:03:23.080 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 01:03:23.081 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 01:03:23.082 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 01:03:23.083 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 01:03:23.083 +02:00 [INF] HTTP GET / responded 200 in 9.3499 ms
+2024-05-27 01:03:23.083 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 12.6623ms
+2024-05-27 01:03:23.122 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/assets/icons8-google-16.png - null null
+2024-05-27 01:03:23.125 +02:00 [INF] Sending file. Request path: '/assets/icons8-google-16.png'. Physical path: 'C:\dev\Sites\tabito\wwwroot\assets\icons8-google-16.png'
+2024-05-27 01:03:23.126 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/assets/icons8-google-16.png - 200 644 image/png 3.6735ms
+2024-05-27 01:03:23.128 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/util.js - null null
+2024-05-27 01:03:23.130 +02:00 [INF] Sending file. Request path: '/js/util.js'. Physical path: 'C:\dev\Sites\tabito\wwwroot\js\util.js'
+2024-05-27 01:03:23.130 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/util.js - 200 126 text/javascript 2.1305ms
+2024-05-27 01:03:23.130 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 01:03:23.131 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 01:03:23.131 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 01:03:23.131 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 01:03:23.131 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.5433 ms
+2024-05-27 01:03:23.131 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 1.2157ms
+2024-05-27 01:03:23.344 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 01:03:23.344 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.345 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 01:03:23.345 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.345 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 0.5786 ms
+2024-05-27 01:03:23.345 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 1.1634ms
+2024-05-27 01:03:23.352 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 01:03:23.353 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.355 +02:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\blazor.boot.json.br'
+2024-05-27 01:03:23.355 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.355 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 200 in 2.3720 ms
+2024-05-27 01:03:23.356 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 200 7516 application/json 3.1279ms
+2024-05-27 01:03:23.363 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 01:03:23.363 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.364 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 01:03:23.364 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.364 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.0334 ms
+2024-05-27 01:03:23.365 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 01:03:23.365 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 1.692ms
+2024-05-27 01:03:23.365 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.366 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 01:03:23.366 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.366 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.9047 ms
+2024-05-27 01:03:23.366 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 1.8373ms
+2024-05-27 01:03:23.377 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 01:03:23.377 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 01:03:23.378 +02:00 [INF] Sending file. Request path: '/appsettings.json'. Physical path: 'C:\dev\Sites\tabito\wwwroot\appsettings.json'
+2024-05-27 01:03:23.378 +02:00 [INF] Sending file. Request path: '/appsettings.Production.json'. Physical path: 'C:\dev\Sites\tabito\wwwroot\appsettings.Production.json'
+2024-05-27 01:03:23.379 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 200 224 application/json 1.3326ms
+2024-05-27 01:03:23.379 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 200 225 application/json 1.4613ms
+2024-05-27 01:03:23.397 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm - null null
+2024-05-27 01:03:23.397 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm - null null
+2024-05-27 01:03:23.397 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.397 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.399 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Share.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Share.wasm.br'
+2024-05-27 01:03:23.399 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.399 +02:00 [INF] HTTP GET /_framework/Tabito.Share.wasm.br responded 200 in 2.0564 ms
+2024-05-27 01:03:23.400 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm.br - 200 10442 application/wasm 2.7371ms
+2024-05-27 01:03:23.400 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Web.Client.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Web.Client.wasm.br'
+2024-05-27 01:03:23.400 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:23.400 +02:00 [INF] HTTP GET /_framework/Tabito.Web.Client.wasm.br responded 200 in 2.7209 ms
+2024-05-27 01:03:23.400 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm.br - 200 64572 application/wasm 3.5577ms
+2024-05-27 01:03:27.570 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - application/x-www-form-urlencoded 217
+2024-05-27 01:03:27.571 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 01:03:27.571 +02:00 [INF] CORS policy execution successful.
+2024-05-27 01:03:27.572 +02:00 [INF] Executing endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 01:03:27.573 +02:00 [INF] IAppLogger:IdentityComponentsEndpointRouteBuilderExtensions:
+2024-05-27 01:03:27.573 +02:00 [INF] Executing ChallengeResult with authentication schemes (["MyGoogleScheme"]).
+2024-05-27 01:03:27.575 +02:00 [INF] AuthenticationScheme: MyGoogleScheme was challenged.
+2024-05-27 01:03:27.575 +02:00 [INF] Executed endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 01:03:27.575 +02:00 [INF] HTTP POST /Account/PerformExternalLogin responded 302 in 4.2670 ms
+2024-05-27 01:03:27.578 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - 302 null null 7.3103ms
+2024-05-27 01:03:31.751 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTLaZ_9h_rdCXSFSQGQywY23H2Gbe1B-te6VHUS4vFbIVDEgcXgBj3sIMwLis1ki4z29D0WXrk6gF2ihOQ-FsHzdTVzkIdK18PF5l_Wl4kRWKs1lcO_aXvD4u_l_hhwq6xXW15JT05evgcD_tsxrq3jLzrzcWnsAtyAJn4D7ObEy1AUvI_g4njW6XMxyyjDrWXUzGGk7IK2kui64egbOzsMIWHru7sVDihKyoRXL-pUXgohCIp2sDZ291OSeMgUAvtlRsKIMo3FI0ZZlQGsfFKho0Yw8SiCHjJEENj1t2HtVMx855xerxND0j5eFiqSLp4C15E_YYu-CxLMyUtTnGMjkPZWnjlSfUXTj7zRFNRGFsTcId-mn-f4TAqyiNKgipi0&code=4/0AdLIrYfuhapjWqDBXrz1_n6y_kLaZrKopzNorlQeGXgkSgogpcSwpyygYy92Mmx1N0XiPw&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=1&prompt=consent - null null
+2024-05-27 01:03:32.059 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2024-05-27 01:03:32.060 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTLaZ_9h_rdCXSFSQGQywY23H2Gbe1B-te6VHUS4vFbIVDEgcXgBj3sIMwLis1ki4z29D0WXrk6gF2ihOQ-FsHzdTVzkIdK18PF5l_Wl4kRWKs1lcO_aXvD4u_l_hhwq6xXW15JT05evgcD_tsxrq3jLzrzcWnsAtyAJn4D7ObEy1AUvI_g4njW6XMxyyjDrWXUzGGk7IK2kui64egbOzsMIWHru7sVDihKyoRXL-pUXgohCIp2sDZ291OSeMgUAvtlRsKIMo3FI0ZZlQGsfFKho0Yw8SiCHjJEENj1t2HtVMx855xerxND0j5eFiqSLp4C15E_YYu-CxLMyUtTnGMjkPZWnjlSfUXTj7zRFNRGFsTcId-mn-f4TAqyiNKgipi0&code=4/0AdLIrYfuhapjWqDBXrz1_n6y_kLaZrKopzNorlQeGXgkSgogpcSwpyygYy92Mmx1N0XiPw&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=1&prompt=consent - 302 null null 308.6305ms
+2024-05-27 01:03:32.067 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - null null
+2024-05-27 01:03:32.068 +02:00 [INF] Executing endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 01:03:32.069 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 01:03:32.070 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtTRAAd2JJvgENXe9a9Qao2nUAgEksjEirxfv5jHAQSthgFPt8N-8aaK4ApRFE1m1gb0Vz1goIQecvT2V7OnwoOhOrQZz4MvvrWcII9_hkvgYP-DQt87OAsfN0aokEyOuxzhwkZ_bLoPCOZ49s9lu6ItJsEGlmPaCgYKAVESARASFQHGX2Mi4EqJ_iUFxOg-bPlois9HwQ0171"}
+2024-05-27 01:03:32.071 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 01:03:32.071 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtTRAAd2JJvgENXe9a9Qao2nUAgEksjEirxfv5jHAQSthgFPt8N-8aaK4ApRFE1m1gb0Vz1goIQecvT2V7OnwoOhOrQZz4MvvrWcII9_hkvgYP-DQt87OAsfN0aokEyOuxzhwkZ_bLoPCOZ49s9lu6ItJsEGlmPaCgYKAVESARASFQHGX2Mi4EqJ_iUFxOg-bPlois9HwQ0171"}
+2024-05-27 01:03:32.075 +02:00 [INF] IAppLogger:OnLoginCallbackAsync: verymatch.net@gmail.com
+2024-05-27 01:03:32.105 +02:00 [INF] Saved 1 entities to in-memory store.
+2024-05-27 01:03:32.108 +02:00 [INF] Saved 2 entities to in-memory store.
+2024-05-27 01:03:32.108 +02:00 [INF] User created an account using MyGoogleScheme provider.
+2024-05-27 01:03:32.109 +02:00 [INF] IAppLogger:LoadInfoUser:{"TableActive":null,"Name":"verymatch.net@gmail.com","Token":"ya29.a0AXooCgtTRAAd2","Picture":"https://lh3.googleusercontent.com/a/ACg8ocL9-Z2vuXvSy19Q-zsAZ9ZfUJOwIVFS2uzepdmfM1Lqvho9BQ=s96-c","Tables":{},"Drive":{"IdFile":null,"IdFolder":null}}
+2024-05-27 01:03:32.111 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-05-27 01:03:32.112 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 01:03:32.113 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 01:03:32.114 +02:00 [INF] Executed endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 01:03:32.114 +02:00 [INF] HTTP GET /Account/ExternalLogin responded 302 in 45.9811 ms
+2024-05-27 01:03:32.114 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - 302 null text/html; charset=utf-8 47.081ms
+2024-05-27 01:03:32.119 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 01:03:32.120 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 01:03:32.122 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:No serialized
+2024-05-27 01:03:32.122 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtTRAAd2JJvgENXe9a9Qao2nUAgEksjEirxfv5jHAQSthgFPt8N-8aaK4ApRFE1m1gb0Vz1goIQecvT2V7OnwoOhOrQZz4MvvrWcII9_hkvgYP-DQt87OAsfN0aokEyOuxzhwkZ_bLoPCOZ49s9lu6ItJsEGlmPaCgYKAVESARASFQHGX2Mi4EqJ_iUFxOg-bPlois9HwQ0171"}
+2024-05-27 01:03:32.123 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:No serialized
+2024-05-27 01:03:32.123 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtTRAAd2JJvgENXe9a9Qao2nUAgEksjEirxfv5jHAQSthgFPt8N-8aaK4ApRFE1m1gb0Vz1goIQecvT2V7OnwoOhOrQZz4MvvrWcII9_hkvgYP-DQt87OAsfN0aokEyOuxzhwkZ_bLoPCOZ49s9lu6ItJsEGlmPaCgYKAVESARASFQHGX2Mi4EqJ_iUFxOg-bPlois9HwQ0171"}
+2024-05-27 01:03:32.126 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 01:03:32.127 +02:00 [INF] IAppLogger:OnPersistingAsync:No serialized
+2024-05-27 01:03:32.127 +02:00 [INF] IAppLogger:OnPersistingAsync:{"Name":"access_token","Value":"ya29.a0AXooCgtTRAAd2JJvgENXe9a9Qao2nUAgEksjEirxfv5jHAQSthgFPt8N-8aaK4ApRFE1m1gb0Vz1goIQecvT2V7OnwoOhOrQZz4MvvrWcII9_hkvgYP-DQt87OAsfN0aokEyOuxzhwkZ_bLoPCOZ49s9lu6ItJsEGlmPaCgYKAVESARASFQHGX2Mi4EqJ_iUFxOg-bPlois9HwQ0171"}
+2024-05-27 01:03:32.127 +02:00 [INF] IAppLogger:OnPersistingAsync:"ya29.a0AXooCgtTRAAd2JJvgENXe9a9Qao2nUAgEksjEirxfv5jHAQSthgFPt8N-8aaK4ApRFE1m1gb0Vz1goIQecvT2V7OnwoOhOrQZz4MvvrWcII9_hkvgYP-DQt87OAsfN0aokEyOuxzhwkZ_bLoPCOZ49s9lu6ItJsEGlmPaCgYKAVESARASFQHGX2Mi4EqJ_iUFxOg-bPlois9HwQ0171"
+2024-05-27 01:03:32.129 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 01:03:32.129 +02:00 [INF] HTTP GET / responded 200 in 8.5902 ms
+2024-05-27 01:03:32.129 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 10.5879ms
+2024-05-27 01:03:32.171 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 01:03:32.172 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 01:03:32.172 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 01:03:32.172 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 01:03:32.172 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.5089 ms
+2024-05-27 01:03:32.172 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 1.5441ms
+2024-05-27 01:03:32.236 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/assets/user.png - null null
+2024-05-27 01:03:32.238 +02:00 [INF] Sending file. Request path: '/assets/user.png'. Physical path: 'C:\dev\Sites\tabito\wwwroot\assets\user.png'
+2024-05-27 01:03:32.238 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/assets/user.png - 200 761 image/png 2.1168ms
+2024-05-27 01:03:32.266 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 01:03:32.267 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:32.268 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 01:03:32.268 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:32.268 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 1.0108 ms
+2024-05-27 01:03:32.268 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 2.1407ms
+2024-05-27 01:03:32.285 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 01:03:32.286 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:32.286 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 01:03:32.286 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:32.287 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 0.5839 ms
+2024-05-27 01:03:32.287 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 1.6343ms
+2024-05-27 01:03:32.293 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 01:03:32.293 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 01:03:32.294 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:32.294 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:32.294 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 01:03:32.294 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 01:03:32.294 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:32.294 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 01:03:32.295 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.6920 ms
+2024-05-27 01:03:32.295 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.8041 ms
+2024-05-27 01:03:32.295 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 1.8554ms
+2024-05-27 01:03:32.295 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 1.5651ms
+2024-05-27 01:03:32.310 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 01:03:32.310 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 01:03:32.311 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 01:03:32.311 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 01:03:32.312 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.0509ms
+2024-05-27 01:03:32.312 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 1.1831ms
+2024-05-27 08:37:29.958 +02:00 [INF] Application is shutting down...
+2024-05-27 10:06:52.179 +02:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1786104054-2076035681-1748046384-302233383-2924927588\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-27 10:06:52.313 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 10:06:52.314 +02:00 [INF] Hosting environment: Production
+2024-05-27 10:06:52.314 +02:00 [INF] Content root path: C:\dev\Sites\tabito
+2024-05-27 10:06:52.322 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/work/tables/accountstatemen - null null
+2024-05-27 10:06:52.654 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-05-27 10:06:52.655 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-05-27 10:06:52.656 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-05-27 10:06:52.656 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorRememberMe signed out.
+2024-05-27 10:06:52.656 +02:00 [INF] Identity.Application was not authenticated. Failure message: No principal.
+2024-05-27 10:06:52.659 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 10:06:52.661 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 10:06:52.663 +02:00 [INF] Executing endpoint '/work/tables/{value} (/work/tables/{value})'
+2024-05-27 10:06:52.717 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 10:06:52.717 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 10:06:52.718 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 10:06:52.726 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 10:06:52.726 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 10:06:52.727 +02:00 [INF] Identity.External was not authenticated. Failure message: Ticket expired
+2024-05-27 10:06:52.727 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 10:06:52.727 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 10:06:52.736 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 10:06:52.736 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 10:06:52.743 +02:00 [INF] Executed endpoint '/work/tables/{value} (/work/tables/{value})'
+2024-05-27 10:06:52.743 +02:00 [INF] HTTP GET /work/tables/accountstatemen responded 302 in 81.3072 ms
+2024-05-27 10:06:52.745 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 10:06:52.746 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 10:06:52.748 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/work/tables/accountstatemen - 302 null text/html; charset=utf-8 429.1061ms
+2024-05-27 10:06:52.754 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 10:06:52.754 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 10:06:52.755 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 10:06:52.755 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 10:06:52.755 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 10:06:52.757 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 10:06:52.782 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 10:06:52.782 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 10:06:52.783 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 10:06:52.784 +02:00 [INF] HTTP GET / responded 200 in 37.3111 ms
+2024-05-27 10:06:52.784 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 39.78ms
+2024-05-27 10:06:52.802 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 10:06:52.805 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 10:06:52.810 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 10:06:52.811 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 10:06:52.811 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.8520 ms
+2024-05-27 10:06:52.812 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Tabito.Web.Client.bundle.scp.css - null null
+2024-05-27 10:06:52.812 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 10.0028ms
+2024-05-27 10:06:52.813 +02:00 [INF] The file /Tabito.Web.Client.bundle.scp.css was not modified
+2024-05-27 10:06:52.814 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Tabito.Web.Client.bundle.scp.css - 304 null text/css 2.5363ms
+2024-05-27 10:06:52.814 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/util.js - null null
+2024-05-27 10:06:52.816 +02:00 [INF] The file /js/util.js was not modified
+2024-05-27 10:06:52.816 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/bugdefender-scripts.js - null null
+2024-05-27 10:06:52.816 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/util.js - 304 null text/javascript 1.8911ms
+2024-05-27 10:06:52.817 +02:00 [INF] The file /js/bugdefender-scripts.js was not modified
+2024-05-27 10:06:52.817 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/bugdefender-scripts.js - 304 null text/javascript 1.4324ms
+2024-05-27 10:06:53.077 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 10:06:53.079 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 10:06:53.080 +02:00 [INF] CORS policy execution successful.
+2024-05-27 10:06:53.082 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 10:06:53.090 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 10:06:53.091 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 10:06:53.091 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 9.4818 ms
+2024-05-27 10:06:53.093 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 15.8121ms
+2024-05-27 10:06:53.099 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 10:06:53.100 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 10:06:53.102 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 10:06:53.102 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 10:06:53.102 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 1.7197 ms
+2024-05-27 10:06:53.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 2.9462ms
+2024-05-27 10:06:53.106 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 10:06:53.106 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 10:06:53.107 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 10:06:53.107 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 10:06:53.107 +02:00 [INF] CORS policy execution successful.
+2024-05-27 10:06:53.107 +02:00 [INF] CORS policy execution successful.
+2024-05-27 10:06:53.108 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 10:06:53.108 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 10:06:53.108 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 10:06:53.108 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 10:06:53.109 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 10:06:53.109 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 10:06:53.109 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.2698 ms
+2024-05-27 10:06:53.109 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 1.4040 ms
+2024-05-27 10:06:53.110 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 3.9153ms
+2024-05-27 10:06:53.111 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 3.504ms
+2024-05-27 10:34:04.233 +02:00 [INF] Application is shutting down...
+2024-05-27 11:11:28.692 +02:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1786104054-2076035681-1748046384-302233383-2924927588\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-27 11:11:28.803 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 11:11:28.803 +02:00 [INF] Hosting environment: Production
+2024-05-27 11:11:28.803 +02:00 [INF] Content root path: C:\dev\Sites\tabito
+2024-05-27 11:11:28.812 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 11:11:28.840 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:28.842 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 11:11:28.843 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 11:11:28.950 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 11:11:28.952 +02:00 [INF] Identity.External was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:28.952 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 11:11:28.958 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 11:11:28.959 +02:00 [INF] Identity.External was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:28.959 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:obj is null wasnt possible to log
+2024-05-27 11:11:28.960 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 11:11:28.964 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-27 11:11:28.993 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 11:11:28.993 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 11:11:29.001 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 11:11:29.003 +02:00 [INF] HTTP GET / responded 200 in 158.8611 ms
+2024-05-27 11:11:29.018 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 208.0384ms
+2024-05-27 11:11:29.062 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/util.js - null null
+2024-05-27 11:11:29.062 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 11:11:29.062 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Tabito.Web.Client.bundle.scp.css - null null
+2024-05-27 11:11:29.070 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/js/bugdefender-scripts.js - null null
+2024-05-27 11:11:29.071 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.072 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.073 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 11:11:29.075 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.078 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.081 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 11:11:29.081 +02:00 [INF] The file /Tabito.Web.Client.bundle.scp.css was not modified
+2024-05-27 11:11:29.081 +02:00 [INF] The file /js/bugdefender-scripts.js was not modified
+2024-05-27 11:11:29.081 +02:00 [INF] The file /js/util.js was not modified
+2024-05-27 11:11:29.083 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 11:11:29.083 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 10.1726 ms
+2024-05-27 11:11:29.083 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 21.5629ms
+2024-05-27 11:11:29.083 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/bugdefender-scripts.js - 304 null text/javascript 13.0571ms
+2024-05-27 11:11:29.083 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/js/util.js - 304 null text/javascript 21.5641ms
+2024-05-27 11:11:29.083 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Tabito.Web.Client.bundle.scp.css - 304 null text/css 21.5433ms
+2024-05-27 11:11:29.437 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 11:11:29.441 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 11:11:29.441 +02:00 [INF] CORS policy execution successful.
+2024-05-27 11:11:29.445 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.445 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.452 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 11:11:29.453 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.453 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 8.2664 ms
+2024-05-27 11:11:29.454 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 17.0804ms
+2024-05-27 11:11:29.460 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 11:11:29.462 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.463 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.467 +02:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\blazor.boot.json.br'
+2024-05-27 11:11:29.468 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.468 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 200 in 4.9528 ms
+2024-05-27 11:11:29.468 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 200 7516 application/json 8.7368ms
+2024-05-27 11:11:29.471 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 11:11:29.471 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 11:11:29.472 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 11:11:29.472 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 11:11:29.472 +02:00 [INF] CORS policy execution successful.
+2024-05-27 11:11:29.472 +02:00 [INF] CORS policy execution successful.
+2024-05-27 11:11:29.475 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.475 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.475 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 11:11:29.476 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.476 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 0.8274 ms
+2024-05-27 11:11:29.476 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.476 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.476 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 5.1253ms
+2024-05-27 11:11:29.477 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 11:11:29.477 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.477 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.8535 ms
+2024-05-27 11:11:29.478 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 6.2928ms
+2024-05-27 11:11:29.480 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 11:11:29.481 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 11:11:29.483 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.484 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 11:11:29.485 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 5.2357ms
+2024-05-27 11:11:29.485 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.487 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 11:11:29.488 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 7.1259ms
+2024-05-27 11:11:29.537 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm - null null
+2024-05-27 11:11:29.541 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.541 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.543 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm - null null
+2024-05-27 11:11:29.545 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:29.545 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.547 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Share.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Share.wasm.br'
+2024-05-27 11:11:29.549 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.549 +02:00 [INF] Sending file. Request path: '/_framework/Tabito.Web.Client.wasm.br'. Physical path: 'C:\dev\Sites\tabito\wwwroot\_framework\Tabito.Web.Client.wasm.br'
+2024-05-27 11:11:29.549 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:29.549 +02:00 [INF] HTTP GET /_framework/Tabito.Share.wasm.br responded 200 in 7.9931 ms
+2024-05-27 11:11:29.549 +02:00 [INF] HTTP GET /_framework/Tabito.Web.Client.wasm.br responded 200 in 3.9636 ms
+2024-05-27 11:11:29.551 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Share.wasm.br - 200 10442 application/wasm 13.9364ms
+2024-05-27 11:11:29.552 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/Tabito.Web.Client.wasm.br - 200 64572 application/wasm 9.3277ms
+2024-05-27 11:11:33.984 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - application/x-www-form-urlencoded 217
+2024-05-27 11:11:33.986 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 11:11:33.986 +02:00 [INF] CORS policy execution successful.
+2024-05-27 11:11:33.993 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:34.015 +02:00 [INF] Executing endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 11:11:34.041 +02:00 [INF] IAppLogger:IdentityComponentsEndpointRouteBuilderExtensions:
+2024-05-27 11:11:34.043 +02:00 [INF] Executing ChallengeResult with authentication schemes (["MyGoogleScheme"]).
+2024-05-27 11:11:34.058 +02:00 [INF] AuthenticationScheme: MyGoogleScheme was challenged.
+2024-05-27 11:11:34.058 +02:00 [INF] Executed endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 11:11:34.059 +02:00 [INF] HTTP POST /Account/PerformExternalLogin responded 302 in 65.4390 ms
+2024-05-27 11:11:34.060 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - 302 null null 76.6362ms
+2024-05-27 11:11:38.174 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTI73PiUk0PsViXQ63C8uuoS49j_b80CsNWiMgkI5pBbwEarI7t8DS9U2AteuTq3t8LXAn9fdFUzcytWZVZLo2cb0gYGndc1I69q1uyGQqdgclWJkPq9qkL-zvmp95Ha1FJ2f3b-A7FyYOMLaFDN0VoqYoW8N2ifKz54dycettPFtAXG1N8XMyUFF7PqgWTtOLBXw8CJDfHTlR7KjHCERRX0XRgoOBSCHlyzSeavK8h85oyrA6g30YlBd_IwmlxxXofv3PWP1MoNaBxEDYHQL3L7ZEDrfh_t6smhjJdfnCPKG8aNswdvhUIKbFcnNNYj_7b2quebBsf-P_lLniK-rQ1YGSzckEBMCBRkPeWQ-tsc9eGrmZxGbynyOnCdh3UAFy4&code=4/0AdLIrYc1mbUu9TW9_OUyWjhi3QZV8-7pR2yvnHIQ8RxqJlQ-pLgp5FoHiZj--L8sRD6Paw&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent - null null
+2024-05-27 11:11:39.014 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2024-05-27 11:11:39.015 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTI73PiUk0PsViXQ63C8uuoS49j_b80CsNWiMgkI5pBbwEarI7t8DS9U2AteuTq3t8LXAn9fdFUzcytWZVZLo2cb0gYGndc1I69q1uyGQqdgclWJkPq9qkL-zvmp95Ha1FJ2f3b-A7FyYOMLaFDN0VoqYoW8N2ifKz54dycettPFtAXG1N8XMyUFF7PqgWTtOLBXw8CJDfHTlR7KjHCERRX0XRgoOBSCHlyzSeavK8h85oyrA6g30YlBd_IwmlxxXofv3PWP1MoNaBxEDYHQL3L7ZEDrfh_t6smhjJdfnCPKG8aNswdvhUIKbFcnNNYj_7b2quebBsf-P_lLniK-rQ1YGSzckEBMCBRkPeWQ-tsc9eGrmZxGbynyOnCdh3UAFy4&code=4/0AdLIrYc1mbUu9TW9_OUyWjhi3QZV8-7pR2yvnHIQ8RxqJlQ-pLgp5FoHiZj--L8sRD6Paw&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent - 302 null null 841.5318ms
+2024-05-27 11:11:39.020 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - null null
+2024-05-27 11:11:39.025 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-05-27 11:11:39.025 +02:00 [INF] Executing endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 11:11:39.052 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 11:11:39.058 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvEDh6nKyetRBDkz_9Ndi8wA1vJjvmQ_twTKvHsrnAHWAnwdQuuwv89kondmn5npRce-tRUC6gxXyuXfMPF7bgkJajSccnd6dsmj8AY2LoarR9mCnqwQx9GsbAt7r_AXgIdGRRlsInn5D-vTCtL_GxISV0lMCEIaCgYKAUsSARASFQHGX2MiKYv64Myj9Inh01vRjPyFHA0171"}
+2024-05-27 11:11:39.061 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 11:11:39.062 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvEDh6nKyetRBDkz_9Ndi8wA1vJjvmQ_twTKvHsrnAHWAnwdQuuwv89kondmn5npRce-tRUC6gxXyuXfMPF7bgkJajSccnd6dsmj8AY2LoarR9mCnqwQx9GsbAt7r_AXgIdGRRlsInn5D-vTCtL_GxISV0lMCEIaCgYKAUsSARASFQHGX2MiKYv64Myj9Inh01vRjPyFHA0171"}
+2024-05-27 11:11:39.093 +02:00 [INF] IAppLogger:OnLoginCallbackAsync: rjara001@gmail.com
+2024-05-27 11:11:40.405 +02:00 [INF] Saved 1 entities to in-memory store.
+2024-05-27 11:11:40.470 +02:00 [INF] Saved 2 entities to in-memory store.
+2024-05-27 11:11:40.472 +02:00 [INF] User created an account using MyGoogleScheme provider.
+2024-05-27 11:11:40.511 +02:00 [INF] IAppLogger:LoadInfoUser:{"TableActive":null,"Name":"rjara001@gmail.com","Token":"ya29.a0AXooCgvEDh6nK","Picture":"https://lh3.googleusercontent.com/a/ACg8ocJFH6JGNVKO42Bqhw7tkJbFTMcMDllRp-HzpZi3F39bqx7f-Q=s96-c","Tables":{},"Drive":{"IdFile":null,"IdFolder":null}}
+2024-05-27 11:11:40.552 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-05-27 11:11:40.556 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 11:11:40.556 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 11:11:40.558 +02:00 [INF] Executed endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 11:11:40.558 +02:00 [INF] HTTP GET /Account/ExternalLogin responded 302 in 1532.5791 ms
+2024-05-27 11:11:40.561 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 11:11:40.563 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - 302 null text/html; charset=utf-8 1543.0452ms
+2024-05-27 11:11:40.566 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 11:11:40.598 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:No serialized
+2024-05-27 11:11:40.599 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvEDh6nKyetRBDkz_9Ndi8wA1vJjvmQ_twTKvHsrnAHWAnwdQuuwv89kondmn5npRce-tRUC6gxXyuXfMPF7bgkJajSccnd6dsmj8AY2LoarR9mCnqwQx9GsbAt7r_AXgIdGRRlsInn5D-vTCtL_GxISV0lMCEIaCgYKAUsSARASFQHGX2MiKYv64Myj9Inh01vRjPyFHA0171"}
+2024-05-27 11:11:40.603 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:No serialized
+2024-05-27 11:11:40.603 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvEDh6nKyetRBDkz_9Ndi8wA1vJjvmQ_twTKvHsrnAHWAnwdQuuwv89kondmn5npRce-tRUC6gxXyuXfMPF7bgkJajSccnd6dsmj8AY2LoarR9mCnqwQx9GsbAt7r_AXgIdGRRlsInn5D-vTCtL_GxISV0lMCEIaCgYKAUsSARASFQHGX2MiKYv64Myj9Inh01vRjPyFHA0171"}
+2024-05-27 11:11:40.653 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 11:11:40.654 +02:00 [INF] IAppLogger:OnPersistingAsync:No serialized
+2024-05-27 11:11:40.655 +02:00 [INF] IAppLogger:OnPersistingAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvEDh6nKyetRBDkz_9Ndi8wA1vJjvmQ_twTKvHsrnAHWAnwdQuuwv89kondmn5npRce-tRUC6gxXyuXfMPF7bgkJajSccnd6dsmj8AY2LoarR9mCnqwQx9GsbAt7r_AXgIdGRRlsInn5D-vTCtL_GxISV0lMCEIaCgYKAUsSARASFQHGX2MiKYv64Myj9Inh01vRjPyFHA0171"}
+2024-05-27 11:11:40.656 +02:00 [INF] IAppLogger:OnPersistingAsync:"ya29.a0AXooCgvEDh6nKyetRBDkz_9Ndi8wA1vJjvmQ_twTKvHsrnAHWAnwdQuuwv89kondmn5npRce-tRUC6gxXyuXfMPF7bgkJajSccnd6dsmj8AY2LoarR9mCnqwQx9GsbAt7r_AXgIdGRRlsInn5D-vTCtL_GxISV0lMCEIaCgYKAUsSARASFQHGX2MiKYv64Myj9Inh01vRjPyFHA0171"
+2024-05-27 11:11:40.661 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 11:11:40.661 +02:00 [INF] HTTP GET / responded 200 in 95.1865 ms
+2024-05-27 11:11:40.667 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 105.3304ms
+2024-05-27 11:11:40.676 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 11:11:40.678 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 11:11:40.679 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 11:11:40.679 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 11:11:40.680 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.6385 ms
+2024-05-27 11:11:40.681 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 5.14ms
+2024-05-27 11:11:40.741 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/assets/user.png - null null
+2024-05-27 11:11:40.746 +02:00 [INF] The file /assets/user.png was not modified
+2024-05-27 11:11:40.746 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/assets/user.png - 304 null image/png 5.9632ms
+2024-05-27 11:11:40.824 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 11:11:40.824 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 11:11:40.824 +02:00 [INF] CORS policy execution successful.
+2024-05-27 11:11:40.825 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:40.826 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 11:11:40.826 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:40.826 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 1.0569 ms
+2024-05-27 11:11:40.827 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 3.2308ms
+2024-05-27 11:11:40.839 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 11:11:40.840 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:40.840 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 11:11:40.840 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:40.840 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 0.7953 ms
+2024-05-27 11:11:40.841 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 2.1583ms
+2024-05-27 11:11:40.845 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 11:11:40.845 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 11:11:40.845 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 11:11:40.845 +02:00 [INF] CORS policy execution successful.
+2024-05-27 11:11:40.845 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 11:11:40.845 +02:00 [INF] CORS policy execution successful.
+2024-05-27 11:11:40.846 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:40.846 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:40.846 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 11:11:40.847 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:40.847 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 0.6878 ms
+2024-05-27 11:11:40.847 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 11:11:40.847 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:11:40.847 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 2.4737ms
+2024-05-27 11:11:40.847 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.4737 ms
+2024-05-27 11:11:40.848 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 3.0671ms
+2024-05-27 11:11:40.853 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 11:11:40.853 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 11:11:40.854 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 11:11:40.854 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 11:11:40.854 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 1.6277ms
+2024-05-27 11:11:40.854 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 1.6277ms
+2024-05-27 11:16:17.674 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.js.map - null null
+2024-05-27 11:16:17.675 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:16:17.676 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:16:17.676 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.js.map responded 404 in 1.1752 ms
+2024-05-27 11:16:17.677 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.map - null null
+2024-05-27 11:16:17.677 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:16:17.678 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:16:17.678 +02:00 [INF] HTTP GET /_framework/dotnet.js.map responded 404 in 0.3770 ms
+2024-05-27 11:16:17.679 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.js.map - 404 null null 4.9259ms
+2024-05-27 11:16:17.679 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.map - 404 null null 2.2273ms
+2024-05-27 11:16:17.679 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7070/_framework/dotnet.js.map, Response status code: 404
+2024-05-27 11:16:17.679 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7070/_framework/dotnet.runtime.js.map, Response status code: 404
+2024-05-27 11:16:17.692 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css - null null
+2024-05-27 11:16:17.694 +02:00 [INF] The file /_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css was not modified
+2024-05-27 11:16:17.694 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css - 304 null text/css 1.9ms
+2024-05-27 11:17:36.166 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.js.map - null null
+2024-05-27 11:17:36.167 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.map - null null
+2024-05-27 11:17:36.167 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:17:36.167 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:17:36.167 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:17:36.167 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.js.map responded 404 in 0.4203 ms
+2024-05-27 11:17:36.167 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 11:17:36.167 +02:00 [INF] HTTP GET /_framework/dotnet.js.map responded 404 in 0.4386 ms
+2024-05-27 11:17:36.168 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.js.map - 404 null null 1.5047ms
+2024-05-27 11:17:36.168 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7070/_framework/dotnet.runtime.js.map, Response status code: 404
+2024-05-27 11:17:36.168 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.map - 404 null null 1.2744ms
+2024-05-27 11:17:36.168 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:7070/_framework/dotnet.js.map, Response status code: 404
+2024-05-27 11:38:28.094 +02:00 [INF] Application is shutting down...
+2024-05-27 15:37:08.356 +02:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1786104054-2076035681-1748046384-302233383-2924927588\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-27 15:37:08.463 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 15:37:08.464 +02:00 [INF] Hosting environment: Production
+2024-05-27 15:37:08.464 +02:00 [INF] Content root path: C:\dev\Sites\tabito
+2024-05-27 15:37:08.472 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - application/x-www-form-urlencoded 217
+2024-05-27 15:37:08.487 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 15:37:08.487 +02:00 [INF] CORS policy execution successful.
+2024-05-27 15:37:08.497 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 15:37:08.505 +02:00 [INF] Executing endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 15:37:08.549 +02:00 [INF] IAppLogger:IdentityComponentsEndpointRouteBuilderExtensions:
+2024-05-27 15:37:08.551 +02:00 [INF] Executing ChallengeResult with authentication schemes (["MyGoogleScheme"]).
+2024-05-27 15:37:08.557 +02:00 [INF] AuthenticationScheme: MyGoogleScheme was challenged.
+2024-05-27 15:37:08.557 +02:00 [INF] Executed endpoint 'HTTP: POST /Account/PerformExternalLogin'
+2024-05-27 15:37:08.558 +02:00 [INF] HTTP POST /Account/PerformExternalLogin responded 302 in 60.1128 ms
+2024-05-27 15:37:08.562 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:7070/Account/PerformExternalLogin - 302 null null 90.5529ms
+2024-05-27 15:37:12.895 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTLVikj1PBVlLztalBFNHYyhQYsWOXDjx7i-UZmUG5qXZyVBX4gQqky9vKida_KFpNanMTZ-VhqwqFnLJHUNMpU0aIoNnY8WycTlfR5kQplD15yuiwbPkHh3zjYUtGI3o-UiwMwamnR4o8h_5_4Q2ZYKtS43AeVOPr718gDJ138iZD8rhgyEl_WWk4eDBpa8E8741edJ3QsqHBIDA7MVcruaRTjgtNZ1KtokOO_fGlGWTnmzSwQc-oJL-wmHA6VT7ZuZJiIxXVJbdu6WJlMPQZ8AfcDUs6EiMY6Qsv7HkIWMZWIW2c8gRRf7Azkbon8MDITmdDyvOlrl6cfoWnAV5HO74Y4J55aQrkeaNE1g5j01rSTt0lbmrJidIbZpiEaAJ8w&code=4/0AdLIrYc_Z31dcFcvCA9M5uk6gu1TPm2gPWCJDkKVii0-JR4j-69OTlEOcjRjQhNlVZVIpg&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent - null null
+2024-05-27 15:37:13.468 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2024-05-27 15:37:13.472 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/signin-google?state=CfDJ8BFpc16cRsZJieu9HwuIqTLVikj1PBVlLztalBFNHYyhQYsWOXDjx7i-UZmUG5qXZyVBX4gQqky9vKida_KFpNanMTZ-VhqwqFnLJHUNMpU0aIoNnY8WycTlfR5kQplD15yuiwbPkHh3zjYUtGI3o-UiwMwamnR4o8h_5_4Q2ZYKtS43AeVOPr718gDJ138iZD8rhgyEl_WWk4eDBpa8E8741edJ3QsqHBIDA7MVcruaRTjgtNZ1KtokOO_fGlGWTnmzSwQc-oJL-wmHA6VT7ZuZJiIxXVJbdu6WJlMPQZ8AfcDUs6EiMY6Qsv7HkIWMZWIW2c8gRRf7Azkbon8MDITmdDyvOlrl6cfoWnAV5HO74Y4J55aQrkeaNE1g5j01rSTt0lbmrJidIbZpiEaAJ8w&code=4/0AdLIrYc_Z31dcFcvCA9M5uk6gu1TPm2gPWCJDkKVii0-JR4j-69OTlEOcjRjQhNlVZVIpg&scope=email%20profile%20https://www.googleapis.com/auth/drive%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent - 302 null null 576.272ms
+2024-05-27 15:37:13.477 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - null null
+2024-05-27 15:37:13.482 +02:00 [INF] Executing endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 15:37:13.716 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 15:37:13.724 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvv_i4w3lUj-yCsbP_t5osl-1Dfh_1j5b_ovkxXHTdSKAEiYAuofwCiSDCGF3kY1FCYCQlPBpEXDjF1Xp-fNDZg312lx-Q0fagtPJWKmM6UDeWQ5zcFQN4_92_08VUWh-cjQ_CrGBdNdHYQSgcA_M1n313k44YsaCgYKAVsSARASFQHGX2MiBKi2PCTfG8MjM7u2HJpSvg0171"}
+2024-05-27 15:37:13.750 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:[{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}]
+2024-05-27 15:37:13.751 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvv_i4w3lUj-yCsbP_t5osl-1Dfh_1j5b_ovkxXHTdSKAEiYAuofwCiSDCGF3kY1FCYCQlPBpEXDjF1Xp-fNDZg312lx-Q0fagtPJWKmM6UDeWQ5zcFQN4_92_08VUWh-cjQ_CrGBdNdHYQSgcA_M1n313k44YsaCgYKAVsSARASFQHGX2MiBKi2PCTfG8MjM7u2HJpSvg0171"}
+2024-05-27 15:37:13.810 +02:00 [INF] IAppLogger:OnLoginCallbackAsync: rjara001@gmail.com
+2024-05-27 15:37:15.155 +02:00 [INF] Saved 1 entities to in-memory store.
+2024-05-27 15:37:15.230 +02:00 [INF] Saved 2 entities to in-memory store.
+2024-05-27 15:37:15.231 +02:00 [INF] User created an account using MyGoogleScheme provider.
+2024-05-27 15:37:15.273 +02:00 [INF] IAppLogger:LoadInfoUser:{"TableActive":null,"Name":"rjara001@gmail.com","Token":"ya29.a0AXooCgvv_i4w3","Picture":"https://lh3.googleusercontent.com/a/ACg8ocJFH6JGNVKO42Bqhw7tkJbFTMcMDllRp-HzpZi3F39bqx7f-Q=s96-c","Tables":{},"Drive":{"IdFile":null,"IdFolder":null}}
+2024-05-27 15:37:15.317 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-05-27 15:37:15.340 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 15:37:15.341 +02:00 [INF] IAppLogger:OnPersistingAsync:{"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"}
+2024-05-27 15:37:15.352 +02:00 [INF] Executed endpoint '/Account/ExternalLogin (/Account/ExternalLogin)'
+2024-05-27 15:37:15.352 +02:00 [INF] HTTP GET /Account/ExternalLogin responded 302 in 1870.1297 ms
+2024-05-27 15:37:15.356 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/ - null null
+2024-05-27 15:37:15.361 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/Account/ExternalLogin?ReturnUrl=&Action=LoginCallback - 302 null text/html; charset=utf-8 1884.2503ms
+2024-05-27 15:37:15.365 +02:00 [INF] Executing endpoint '/ (/)'
+2024-05-27 15:37:15.387 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:No serialized
+2024-05-27 15:37:15.388 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvv_i4w3lUj-yCsbP_t5osl-1Dfh_1j5b_ovkxXHTdSKAEiYAuofwCiSDCGF3kY1FCYCQlPBpEXDjF1Xp-fNDZg312lx-Q0fagtPJWKmM6UDeWQ5zcFQN4_92_08VUWh-cjQ_CrGBdNdHYQSgcA_M1n313k44YsaCgYKAVsSARASFQHGX2MiBKi2PCTfG8MjM7u2HJpSvg0171"}
+2024-05-27 15:37:15.391 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:No serialized
+2024-05-27 15:37:15.391 +02:00 [INF] IAppLogger:GetAuthenticationStateAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvv_i4w3lUj-yCsbP_t5osl-1Dfh_1j5b_ovkxXHTdSKAEiYAuofwCiSDCGF3kY1FCYCQlPBpEXDjF1Xp-fNDZg312lx-Q0fagtPJWKmM6UDeWQ5zcFQN4_92_08VUWh-cjQ_CrGBdNdHYQSgcA_M1n313k44YsaCgYKAVsSARASFQHGX2MiBKi2PCTfG8MjM7u2HJpSvg0171"}
+2024-05-27 15:37:15.539 +02:00 [INF] IAppLogger:OnPersistingAsync
+2024-05-27 15:37:15.540 +02:00 [INF] IAppLogger:OnPersistingAsync:No serialized
+2024-05-27 15:37:15.541 +02:00 [INF] IAppLogger:OnPersistingAsync:{"Name":"access_token","Value":"ya29.a0AXooCgvv_i4w3lUj-yCsbP_t5osl-1Dfh_1j5b_ovkxXHTdSKAEiYAuofwCiSDCGF3kY1FCYCQlPBpEXDjF1Xp-fNDZg312lx-Q0fagtPJWKmM6UDeWQ5zcFQN4_92_08VUWh-cjQ_CrGBdNdHYQSgcA_M1n313k44YsaCgYKAVsSARASFQHGX2MiBKi2PCTfG8MjM7u2HJpSvg0171"}
+2024-05-27 15:37:15.542 +02:00 [INF] IAppLogger:OnPersistingAsync:"ya29.a0AXooCgvv_i4w3lUj-yCsbP_t5osl-1Dfh_1j5b_ovkxXHTdSKAEiYAuofwCiSDCGF3kY1FCYCQlPBpEXDjF1Xp-fNDZg312lx-Q0fagtPJWKmM6UDeWQ5zcFQN4_92_08VUWh-cjQ_CrGBdNdHYQSgcA_M1n313k44YsaCgYKAVsSARASFQHGX2MiBKi2PCTfG8MjM7u2HJpSvg0171"
+2024-05-27 15:37:15.549 +02:00 [INF] Executed endpoint '/ (/)'
+2024-05-27 15:37:15.550 +02:00 [INF] HTTP GET / responded 200 in 185.0948 ms
+2024-05-27 15:37:15.554 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/ - 200 null text/html; charset=utf-8 197.9096ms
+2024-05-27 15:37:15.593 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - null null
+2024-05-27 15:37:15.597 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2024-05-27 15:37:15.606 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2024-05-27 15:37:15.607 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2024-05-27 15:37:15.607 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 10.1012 ms
+2024-05-27 15:37:15.608 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.web.js - 304 null text/javascript 14.7231ms
+2024-05-27 15:37:15.626 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/assets/user.png - null null
+2024-05-27 15:37:15.645 +02:00 [INF] The file /assets/user.png was not modified
+2024-05-27 15:37:15.646 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/assets/user.png - 304 null image/png 19.5542ms
+2024-05-27 15:37:15.881 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js - null null
+2024-05-27 15:37:15.883 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 15:37:15.885 +02:00 [INF] CORS policy execution successful.
+2024-05-27 15:37:15.888 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 15:37:15.896 +02:00 [INF] The file /_framework/dotnet.js.br was not modified
+2024-05-27 15:37:15.897 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 15:37:15.897 +02:00 [INF] HTTP GET /_framework/dotnet.js.br responded 304 in 9.6678 ms
+2024-05-27 15:37:15.898 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.js.br - 304 null text/javascript 16.5178ms
+2024-05-27 15:37:15.905 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json - null null
+2024-05-27 15:37:15.907 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 15:37:15.909 +02:00 [INF] The file /_framework/blazor.boot.json.br was not modified
+2024-05-27 15:37:15.909 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 15:37:15.910 +02:00 [INF] HTTP GET /_framework/blazor.boot.json.br responded 304 in 2.8086 ms
+2024-05-27 15:37:15.910 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/blazor.boot.json.br - 304 null application/json 5.2461ms
+2024-05-27 15:37:15.916 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js - null null
+2024-05-27 15:37:15.916 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js - null null
+2024-05-27 15:37:15.916 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 15:37:15.916 +02:00 [INF] No CORS policy found for the specified request.
+2024-05-27 15:37:15.916 +02:00 [INF] CORS policy execution successful.
+2024-05-27 15:37:15.917 +02:00 [INF] CORS policy execution successful.
+2024-05-27 15:37:15.918 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 15:37:15.918 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 15:37:15.919 +02:00 [INF] The file /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br was not modified
+2024-05-27 15:37:15.919 +02:00 [INF] The file /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br was not modified
+2024-05-27 15:37:15.919 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 15:37:15.919 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2024-05-27 15:37:15.919 +02:00 [INF] HTTP GET /_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br responded 304 in 1.5831 ms
+2024-05-27 15:37:15.919 +02:00 [INF] HTTP GET /_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br responded 304 in 1.6737 ms
+2024-05-27 15:37:15.920 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.native.8.0.2.l5a7gi28a6.js.br - 304 null text/javascript 3.6258ms
+2024-05-27 15:37:15.920 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/_framework/dotnet.runtime.8.0.2.8j60y5zbay.js.br - 304 null text/javascript 3.8938ms
+2024-05-27 15:37:15.923 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.json - null null
+2024-05-27 15:37:15.926 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - null null
+2024-05-27 15:37:15.927 +02:00 [INF] The file /appsettings.json was not modified
+2024-05-27 15:37:15.927 +02:00 [INF] The file /appsettings.Production.json was not modified
+2024-05-27 15:37:15.928 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.json - 304 null application/json 4.7105ms
+2024-05-27 15:37:15.928 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/appsettings.Production.json - 304 null application/json 2.5568ms
+2024-05-27 15:58:07.793 +02:00 [INF] Application is shutting down...
+2024-05-27 22:40:09.386 +02:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1786104054-2076035681-1748046384-302233383-2924927588\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-27 22:40:09.488 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 22:40:09.488 +02:00 [INF] Hosting environment: Production
+2024-05-27 22:40:09.488 +02:00 [INF] Content root path: C:\dev\Sites\tabito
+2024-05-27 22:40:09.496 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7070/favicon.png - null null
+2024-05-27 22:40:09.517 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 22:40:09.528 +02:00 [INF] Sending file. Request path: '/favicon.png'. Physical path: 'C:\dev\Sites\tabito\wwwroot\favicon.png'
+2024-05-27 22:40:09.529 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:7070/favicon.png - 200 1148 image/png 34.2945ms
+2024-05-27 23:01:08.846 +02:00 [INF] Application is shutting down...
