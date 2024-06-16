@@ -1,10 +1,3 @@
-// JavaScript code
-window.topMenuJsFunctions = {
-    submitLogOut: function (button) {
-        button.click();
-    }
-};
-
 function saveAsFile(fileName, byteBase64) {
     const link = document.createElement('a');
     link.download = fileName;
