@@ -3,7 +3,7 @@ name: Create 404 page and deploy
 on:
   push:
     branches:
-      - main  # Replace with your branch name if different
+      - master  # Replace with your branch name if different
 
 jobs:
   create-404:
