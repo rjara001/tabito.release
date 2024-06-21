@@ -23,7 +23,16 @@
         }
     </style>
 
-    <script src="redirect.js" type="text/javascript"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var params = new URLSearchParams(window.location.search);
+            var path = params.get('path');
+            if (path) {
+                history.replaceState(null, '', path);
+            }
+        });
+    </script>
+
 </head>
 
 <body>
