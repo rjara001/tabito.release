@@ -32,15 +32,4 @@ jobs:
         run: |
           touch .nojekyll
           echo ".nojekyll file created."
-
-      - name: Deploy to master branch
-        if: success()
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git checkout master
-          git add index.html 404.html resources/redirect.js .nojekyll
-          git commit -m "Add redirect.js and update HTML files"
-          git push origin master
-
       # Optional: Add steps for other actions, like testing or notifications
