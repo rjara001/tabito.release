@@ -12,18 +12,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Fetch all branches from origin
-        run: git fetch origin
-
-      - name: Create and Checkout gh-pages branch
-        run: git checkout -b gh-pages origin/gh-pages
-
-      - name: Merge master into gh-pages
-        run: |
-          git merge --no-ff --no-edit master  # Merge master into gh-pages without fast-forwarding
-          git push origin gh-pages  # Push changes to gh-pages branch
-          
+         
       - name: Update base href
         uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
         with:
