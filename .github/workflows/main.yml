@@ -39,11 +39,9 @@ jobs:
           cp index.html 405.html
           echo "405 page created."
            
-      - name: Commit to GitHub pages Repo
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v1.5.1
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          target_branch: gh-pages
-          build_dir: .
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages  # Target branch for deployment
+          FOLDER: build  # Folder containing the static files to deploy
