@@ -33,6 +33,11 @@ jobs:
         run: |
           cp index.html 404.html
           echo "404 page created."
+
+      - name: Create 405 page
+        run: |
+          cp index.html 405.html
+          echo "405 page created."
           
       - name: Commit changes and deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
@@ -40,3 +45,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: .
+
+      - name: Create 406 page
+        run: |
+          cp index.html 406.html
+          echo "406 page created."
