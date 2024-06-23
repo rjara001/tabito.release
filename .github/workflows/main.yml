@@ -38,23 +38,28 @@ jobs:
         run: |
           cp index.html 405.html
           echo "405 page created."
-          
-      - name: Commit changes to gh-pages
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html 404.html .nojekyll
-          git commit -m "Update index.html, create 404.html and .nojekyll"
-          git push origin gh-pages
-          
-      - name: Commit changes and deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
+           
+      - name: Commit and push changes to gh-pages
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: .
-
-      - name: Create 406 page
         run: |
-          cp index.html 406.html
-          echo "406 page created."
+          # Configure git with GitHub Actions bot user
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Checkout the gh-pages branch or create it
+          git checkout gh-pages || git checkout --orphan gh-pages
+
+          # Remove all files to start fresh
+          git rm -rf .
+
+          # Copy the necessary files to gh-pages
+          cp -r ../.github . # Include hidden .github directory
+          cp -r . ../.github
+
+          # Add and commit all files
+          git add -A
+          git commit -m "Deploy to GitHub Pages"
+
+          # Push to the gh-pages branch
+          git push -f origin gh-pages
