@@ -39,27 +39,11 @@ jobs:
           cp index.html 405.html
           echo "405 page created."
            
-      - name: Commit and push changes to gh-pages
+      - name: Commit to GitHub pages Repo
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1.5.1
+        with:
+          target_branch: gh-pages
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Configure git with GitHub Actions bot user
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Checkout the gh-pages branch or create it
-          git checkout gh-pages || git checkout --orphan gh-pages
-
-          # Remove all files to start fresh
-          git rm -rf .
-
-          # Copy the necessary files to gh-pages
-          cp -r ../.github . # Include hidden .github directory
-          cp -r . ../.github
-
-          # Add and commit all files
-          git add -A
-          git commit -m "Deploy to GitHub Pages"
-
-          # Push to the gh-pages branch
-          git push -f origin gh-pages
