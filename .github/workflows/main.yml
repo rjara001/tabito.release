@@ -39,3 +39,10 @@ jobs:
           touch .nojekyll
           echo ".nojekyll file created."
       # Optional: Add steps for other actions, like testing or notifications
+      
+      - name: Commit wwwroot to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: release/wwwroot
