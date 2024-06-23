@@ -16,7 +16,7 @@ jobs:
       - name: Update base href
         uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
         with:
-          html_path: './**/*.html'   # Correct key for specifying HTML files
+          html_path: 'index.html'   # Correct key for specifying HTML files
           base_href: '/tabito.release/' # Correct key for specifying the base href
         
       - name: Create 404 page
