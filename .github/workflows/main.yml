@@ -13,6 +13,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Merge master into gh-pages
+        run: |
+          git checkout gh-pages
+          git merge --no-ff --no-edit master  # Merge master into gh-pages without fast-forwarding
+          git push origin gh-pages  # Push changes to gh-pages branch
+          
       - name: Update base href
         uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
         with:
@@ -39,5 +45,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master
+          BRANCH: gh-pages
           FOLDER: .
