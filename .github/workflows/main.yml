@@ -44,4 +44,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages  # Target branch for deployment
-          FOLDER: build  # Folder containing the static files to deploy
+          FOLDER: .  # Folder containing the static files to deploy
