@@ -1,4 +1,4 @@
-name: Create 404 page and deploy
+name: Create 404 page, update base href, and deploy to GitHub Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - master  # Replace with your branch name if different
 
 jobs:
-  create-404:
+  create-404-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,21 +16,17 @@ jobs:
       - name: Update base href
         uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
         with:
-          html_path: 'index.html'   # Correct key for specifying HTML files
-          base_href: '/tabito.release/' # Correct key for specifying the base href
-        
+          html_path: 'index.html'
+          base_href: '/tabito.release/'
+
       - name: Create 404 page
         run: |
-          # Copy index.html to 404.html
           cp index.html 404.html
           echo "404 page created."
 
       - name: Add script section to files
         run: |
-          # Add script section to index.html (at the end of the <head> section)
           sed -i 's+</head>+<script src="resources/redirect.js"></script>\n</head>+' index.html
-          
-          # Add script section to 404.html (assuming same redirect.js is used, at the end of the <head> section)
           sed -i 's+</head>+<script src="resources/redirect.js"></script>\n</head>+' 404.html
           echo "Script section added to files."
 
@@ -38,11 +34,10 @@ jobs:
         run: |
           touch .nojekyll
           echo ".nojekyll file created."
-      # Optional: Add steps for other actions, like testing or notifications
-      
-      - name: Commit wwwroot to GitHub Pages
+
+      - name: Commit changes and deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: release/wwwroot
+          FOLDER: .
