@@ -33,10 +33,15 @@ jobs:
         run: |
           cp index.html 404.html
           echo "404 page created."
-          
-      - name: Commit changes and deploy to GitHub Pages
+
+      - name: Create 405 page
+        run: |
+          cp index.html 405.html
+          echo "405 page created."
+           
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: .
+          BRANCH: gh-pages  # Target branch for deployment
+          FOLDER: .  # Folder containing the static files to deploy
