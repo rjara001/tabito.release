@@ -1,0 +1,1034 @@
+﻿[
+  {
+    "Country": "Albania",
+    "Currency": "Albanian Lek",
+    "CurrencyCode": "ALL",
+    "Symbol": "Lek",
+    "CultureCode": "sq-AL",
+    "NameEnglish": "Albania"
+  },
+  {
+    "Country": "Afghanistan",
+    "Currency": "Afghan Afghani",
+    "CurrencyCode": "AFN",
+    "Symbol": "؋",
+    "CultureCode": "ps-AF",
+    "NameEnglish": "Afghanistan"
+  },
+  {
+    "Country": "Argentina",
+    "Currency": "Argentine Peso",
+    "CurrencyCode": "ARS",
+    "Symbol": "$",
+    "CultureCode": "es-AR",
+    "NameEnglish": "Argentina"
+  },
+  {
+    "Country": "Aruba",
+    "Currency": "Aruban Florin Guilder",
+    "CurrencyCode": "AWG",
+    "Symbol": "ƒ",
+    "CultureCode": "nl-AW",
+    "NameEnglish": "Aruba"
+  },
+  {
+    "Country": "Australia",
+    "Currency": "Australian Dollar",
+    "CurrencyCode": "AUD",
+    "Symbol": "$",
+    "CultureCode": "en-AU",
+    "NameEnglish": "Australia"
+  },
+  {
+    "Country": "Azerbaijan",
+    "Currency": "Azerbaijani Manat",
+    "CurrencyCode": "AZN",
+    "Symbol": "₼",
+    "CultureCode": "az-AZ",
+    "NameEnglish": "Azerbaijan"
+  },
+  {
+    "Country": "The Bahamas",
+    "Currency": "Bahamian Dollar",
+    "CurrencyCode": "BSD",
+    "Symbol": "$",
+    "CultureCode": "en-BS",
+    "NameEnglish": "The Bahamas"
+  },
+  {
+    "Country": "Bangladesh",
+    "Currency": "Bangladeshi Taka",
+    "CurrencyCode": "BDT",
+    "Symbol": "৳",
+    "CultureCode": "bn-BD",
+    "NameEnglish": "Bangladesh"
+  },
+  {
+    "Country": "Barbados",
+    "Currency": "Barbados Dollar",
+    "CurrencyCode": "BBD",
+    "Symbol": "$",
+    "CultureCode": "en-BB",
+    "NameEnglish": "Barbados"
+  },
+  {
+    "Country": "Belarus",
+    "Currency": "Belarusian Ruble",
+    "CurrencyCode": "BYN",
+    "Symbol": "Br",
+    "CultureCode": "be-BY",
+    "NameEnglish": "Belarus"
+  },
+  {
+    "Country": "Belize",
+    "Currency": "Belize Dollar",
+    "CurrencyCode": "BZD",
+    "Symbol": "BZ$",
+    "CultureCode": "en-BZ",
+    "NameEnglish": "Belize"
+  },
+  {
+    "Country": "Bermuda",
+    "Currency": "Bermuda Dollar",
+    "CurrencyCode": "BMD",
+    "Symbol": "$",
+    "CultureCode": "en-BM",
+    "NameEnglish": "Bermuda"
+  },
+  {
+    "Country": "Bolivia",
+    "Currency": "Bolivian Bolíviano",
+    "CurrencyCode": "BOB",
+    "Symbol": "$b",
+    "CultureCode": "es-BO",
+    "NameEnglish": "Bolivia"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "Currency": "Bosnia and Herzegovina Convertible Mark",
+    "CurrencyCode": "BAM",
+    "Symbol": "KM",
+    "CultureCode": "bs-BA",
+    "NameEnglish": "Bosnia and Herzegovina"
+  },
+  {
+    "Country": "Botswana",
+    "Currency": "Botswana Pula",
+    "CurrencyCode": "BWP",
+    "Symbol": "P",
+    "CultureCode": "en-BW",
+    "NameEnglish": "Botswana"
+  },
+  {
+    "Country": "Bulgaria",
+    "Currency": "Bulgarian Lev",
+    "CurrencyCode": "BGN",
+    "Symbol": "лв",
+    "CultureCode": "bg-BG",
+    "NameEnglish": "Bulgaria"
+  },
+  {
+    "Country": "Brazil",
+    "Currency": "Brazilian Real",
+    "CurrencyCode": "BRL",
+    "Symbol": "R$",
+    "CultureCode": "pt-BR",
+    "NameEnglish": "Brazil"
+  },
+  {
+    "Country": "Brunei",
+    "Currency": "Brunei Dollar",
+    "CurrencyCode": "BND",
+    "Symbol": "$",
+    "CultureCode": "ms-BN",
+    "NameEnglish": "Brunei"
+  },
+  {
+    "Country": "Cambodia",
+    "Currency": "Cambodian Riel",
+    "CurrencyCode": "KHR",
+    "Symbol": "៛",
+    "CultureCode": "km-KH",
+    "NameEnglish": "Cambodia"
+  },
+  {
+    "Country": "Canada",
+    "Currency": "Canadian Dollar",
+    "CurrencyCode": "CAD",
+    "Symbol": "$",
+    "CultureCode": "en-CA",
+    "NameEnglish": "Canada"
+  },
+  {
+    "Country": "Cayman Islands",
+    "Currency": "Cayman Islands Dollar",
+    "CurrencyCode": "KYD",
+    "Symbol": "$",
+    "CultureCode": "en-KY",
+    "NameEnglish": "Cayman Islands"
+  },
+  {
+    "Country": "Chile",
+    "Currency": "Chilean Peso",
+    "CurrencyCode": "CLP",
+    "Symbol": "$",
+    "CultureCode": "es-CL",
+    "NameEnglish": "Chile"
+  },
+  {
+    "Country": "China",
+    "Currency": "Chinese Yuan Renminbi",
+    "CurrencyCode": "CNY",
+    "Symbol": "¥",
+    "CultureCode": "zh-CN",
+    "NameEnglish": "China"
+  },
+  {
+    "Country": "Colombia",
+    "Currency": "Colombian Peso",
+    "CurrencyCode": "COP",
+    "Symbol": "$",
+    "CultureCode": "es-CO",
+    "NameEnglish": "Colombia"
+  },
+  {
+    "Country": "Costa Rica",
+    "Currency": "Costa Rican Colón",
+    "CurrencyCode": "CRC",
+    "Symbol": "₡",
+    "CultureCode": "es-CR",
+    "NameEnglish": "Costa Rica"
+  },
+  {
+    "Country": "Croatia",
+    "Currency": "Croatian Kuna",
+    "CurrencyCode": "HRK",
+    "Symbol": "kn",
+    "CultureCode": "hr-HR",
+    "NameEnglish": "Croatia"
+  },
+  {
+    "Country": "Cuba",
+    "Currency": "Cuba Peso",
+    "CurrencyCode": "CUP",
+    "Symbol": "₱",
+    "CultureCode": "es-CU",
+    "NameEnglish": "Cuba"
+  },
+  {
+    "Country": "Czech Republic",
+    "Currency": "Czech Koruna",
+    "CurrencyCode": "CZK",
+    "Symbol": "Kč",
+    "CultureCode": "cs-CZ",
+    "NameEnglish": "Czech Republic"
+  },
+  {
+    "Country": "Denmark",
+    "Currency": "Danish Krone",
+    "CurrencyCode": "DKK",
+    "Symbol": "kr",
+    "CultureCode": "da-DK",
+    "NameEnglish": "Denmark"
+  },
+  {
+    "Country": "Dominican Republic",
+    "Currency": "Dominican Republic Peso",
+    "CurrencyCode": "DOP",
+    "Symbol": "RD$",
+    "CultureCode": "es-DO",
+    "NameEnglish": "Dominican Republic"
+  },
+  {
+    "Country": "Egypt",
+    "Currency": "Egypt Pound",
+    "CurrencyCode": "EGP",
+    "Symbol": "£",
+    "CultureCode": "ar-EG",
+    "NameEnglish": "Egypt"
+  },
+  {
+    "Country": "El Salvador",
+    "Currency": "El Salvador Colon",
+    "CurrencyCode": "SVC",
+    "Symbol": "$",
+    "CultureCode": "es-SV",
+    "NameEnglish": "El Salvador"
+  },
+  {
+    "Country": "Austria",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "de-AT",
+    "NameEnglish": "Austria"
+  },
+  {
+    "Country": "Belgium",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "nl-BE",
+    "NameEnglish": "Belgium"
+  },
+  {
+    "Country": "Cyprus",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "el-CY",
+    "NameEnglish": "Cyprus"
+  },
+  {
+    "Country": "Estonia",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "et-EE",
+    "NameEnglish": "Estonia"
+  },
+  {
+    "Country": "Finland",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "fi-FI",
+    "NameEnglish": "Finland"
+  },
+  {
+    "Country": "France",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "fr-FR",
+    "NameEnglish": "France"
+  },
+  {
+    "Country": "Germany",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "de-DE",
+    "NameEnglish": "Germany"
+  },
+  {
+    "Country": "Greece",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "el-GR",
+    "NameEnglish": "Greece"
+  },
+  {
+    "Country": "Ireland",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "en-IE",
+    "NameEnglish": "Ireland"
+  },
+  {
+    "Country": "Italy",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "it-IT",
+    "NameEnglish": "Italy"
+  },
+  {
+    "Country": "Latvia",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "lv-LV",
+    "NameEnglish": "Latvia"
+  },
+  {
+    "Country": "Lithuania",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "lt-LT",
+    "NameEnglish": "Lithuania"
+  },
+  {
+    "Country": "Luxembourg",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "fr-LU",
+    "NameEnglish": "Luxembourg"
+  },
+  {
+    "Country": "Malta",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "mt-MT",
+    "NameEnglish": "Malta"
+  },
+  {
+    "Country": "The Netherlands",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "nl-NL",
+    "NameEnglish": "The Netherlands"
+  },
+  {
+    "Country": "Portugal",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "pt-PT",
+    "NameEnglish": "Portugal"
+  },
+  {
+    "Country": "Slovakia",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "sk-SK",
+    "NameEnglish": "Slovakia"
+  },
+  {
+    "Country": "Slovenia",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "sl-SI",
+    "NameEnglish": "Slovenia"
+  },
+  {
+    "Country": "Spain",
+    "Currency": "Euro",
+    "CurrencyCode": "EUR",
+    "Symbol": "€",
+    "CultureCode": "es-ES",
+    "NameEnglish": "Spain"
+  },
+  {
+    "Country": "Falkland Islands",
+    "Currency": "Falkland Islands (Malvinas) Pound",
+    "CurrencyCode": "FKP",
+    "Symbol": "£",
+    "CultureCode": "en-FK",
+    "NameEnglish": "Falkland Islands"
+  },
+  {
+    "Country": "Fiji",
+    "Currency": "Fiji Dollar",
+    "CurrencyCode": "FJD",
+    "Symbol": "$",
+    "CultureCode": "en-FJ",
+    "NameEnglish": "Fiji"
+  },
+  {
+    "Country": "Ghana",
+    "Currency": "Ghana Cedi",
+    "CurrencyCode": "GHS",
+    "Symbol": "¢",
+    "CultureCode": "en-GH",
+    "NameEnglish": "Ghana"
+  },
+  {
+    "Country": "Gibraltar",
+    "Currency": "Gibraltar Pound",
+    "CurrencyCode": "GIP",
+    "Symbol": "£",
+    "CultureCode": "en-GI",
+    "NameEnglish": "Gibraltar"
+  },
+  {
+    "Country": "Guatemala",
+    "Currency": "Guatemala Quetzal",
+    "CurrencyCode": "GTQ",
+    "Symbol": "Q",
+    "CultureCode": "es-GT",
+    "NameEnglish": "Guatemala"
+  },
+  {
+    "Country": "Guernsey – Channel Islands",
+    "Currency": "Guernsey Pound",
+    "CurrencyCode": "GGP",
+    "Symbol": "£",
+    "CultureCode": "en-GG",
+    "NameEnglish": "Guernsey – Channel Islands"
+  },
+  {
+    "Country": "Guyana",
+    "Currency": "Guyana Dollar",
+    "CurrencyCode": "GYD",
+    "Symbol": "$",
+    "CultureCode": "en-GY",
+    "NameEnglish": "Guyana"
+  },
+  {
+    "Country": "Honduras",
+    "Currency": "Honduras Lempira",
+    "CurrencyCode": "HNL",
+    "Symbol": "L",
+    "CultureCode": "es-HN",
+    "NameEnglish": "Honduras"
+  },
+  {
+    "Country": "Hong Kong",
+    "Currency": "Hong Kong Dollar",
+    "CurrencyCode": "HKD",
+    "Symbol": "$",
+    "CultureCode": "zh-HK",
+    "NameEnglish": "Hong Kong"
+  },
+  {
+    "Country": "Hungary",
+    "Currency": "Hungary Forint",
+    "CurrencyCode": "HUF",
+    "Symbol": "Ft",
+    "CultureCode": "hu-HU",
+    "NameEnglish": "Hungary"
+  },
+  {
+    "Country": "Iceland",
+    "Currency": "Iceland Krona",
+    "CurrencyCode": "ISK",
+    "Symbol": "kr",
+    "CultureCode": "is-IS",
+    "NameEnglish": "Iceland"
+  },
+  {
+    "Country": "India",
+    "Currency": "India Rupee",
+    "CurrencyCode": "INR",
+    "Symbol": "₹",
+    "CultureCode": "en-IN",
+    "NameEnglish": "India"
+  },
+  {
+    "Country": "Indonesia",
+    "Currency": "Indonesia Rupiah",
+    "CurrencyCode": "IDR",
+    "Symbol": "Rp",
+    "CultureCode": "id-ID",
+    "NameEnglish": "Indonesia"
+  },
+  {
+    "Country": "Iran",
+    "Currency": "Iran Rial",
+    "CurrencyCode": "IRR",
+    "Symbol": "﷼",
+    "CultureCode": "fa-IR",
+    "NameEnglish": "Iran"
+  },
+  {
+    "Country": "Isle of Man",
+    "Currency": "Isle of Man Pound",
+    "CurrencyCode": "IMP",
+    "Symbol": "£",
+    "CultureCode": "en-IM",
+    "NameEnglish": "Isle of Man"
+  },
+  {
+    "Country": "Israel",
+    "Currency": "Israel Shekel",
+    "CurrencyCode": "ILS",
+    "Symbol": "₪",
+    "CultureCode": "he-IL",
+    "NameEnglish": "Israel"
+  },
+  {
+    "Country": "Jamaica",
+    "Currency": "Jamaican Dollar",
+    "CurrencyCode": "JMD",
+    "Symbol": "J$",
+    "CultureCode": "en-JM",
+    "NameEnglish": "Jamaica"
+  },
+  {
+    "Country": "Japan",
+    "Currency": "Japan Yen",
+    "CurrencyCode": "JPY",
+    "Symbol": "¥",
+    "CultureCode": "ja-JP",
+    "NameEnglish": "Japan"
+  },
+  {
+    "Country": "Jersey – Channel Islands",
+    "Currency": "Jersey Pound",
+    "CurrencyCode": "JEP",
+    "Symbol": "£",
+    "CultureCode": "en-JE",
+    "NameEnglish": "Jersey – Channel Islands"
+  },
+  {
+    "Country": "Kazakhstan",
+    "Currency": "Kazakhstan Tenge",
+    "CurrencyCode": "KZT",
+    "Symbol": "лв",
+    "CultureCode": "kk-KZ",
+    "NameEnglish": "Kazakhstan"
+  },
+  {
+    "Country": "North Korea",
+    "Currency": "North Korean Won",
+    "CurrencyCode": "KPW",
+    "Symbol": "₩",
+    "CultureCode": "ko-KP",
+    "NameEnglish": "North Korea"
+  },
+  {
+    "Country": "South Korea",
+    "Currency": "South Korean Won",
+    "CurrencyCode": "KRW",
+    "Symbol": "₩",
+    "CultureCode": "ko-KR",
+    "NameEnglish": "South Korea"
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "Currency": "Kyrgyzstan Som",
+    "CurrencyCode": "KGS",
+    "Symbol": "лв",
+    "CultureCode": "ky-KG",
+    "NameEnglish": "Kyrgyzstan"
+  },
+  {
+    "Country": "Laos",
+    "Currency": "Laos Kip",
+    "CurrencyCode": "LAK",
+    "Symbol": "₭",
+    "CultureCode": "lo-LA",
+    "NameEnglish": "Laos"
+  },
+  {
+    "Country": "Lebanon",
+    "Currency": "Lebanon Pound",
+    "CurrencyCode": "LBP",
+    "Symbol": "£",
+    "CultureCode": "ar-LB",
+    "NameEnglish": "Lebanon"
+  },
+  {
+    "Country": "Liberia",
+    "Currency": "Liberia Dollar",
+    "CurrencyCode": "LRD",
+    "Symbol": "$",
+    "CultureCode": "en-LR",
+    "NameEnglish": "Liberia"
+  },
+  {
+    "Country": "Macedonia",
+    "Currency": "Macedonia Denar",
+    "CurrencyCode": "MKD",
+    "Symbol": "ден",
+    "CultureCode": "mk-MK",
+    "NameEnglish": "Macedonia"
+  },
+  {
+    "Country": "Malaysia",
+    "Currency": "Malaysia Ringgit",
+    "CurrencyCode": "MYR",
+    "Symbol": "RM",
+    "CultureCode": "ms-MY",
+    "NameEnglish": "Malaysia"
+  },
+  {
+    "Country": "Mauritius",
+    "Currency": "Mauritius Rupee",
+    "CurrencyCode": "MUR",
+    "Symbol": "₨",
+    "CultureCode": "en-MU",
+    "NameEnglish": "Mauritius"
+  },
+  {
+    "Country": "Mexico",
+    "Currency": "Mexican Peso",
+    "CurrencyCode": "MXN",
+    "Symbol": "$",
+    "CultureCode": "es-MX",
+    "NameEnglish": "Mexico"
+  },
+  {
+    "Country": "Mongolia",
+    "Currency": "Mongolia Tughrik",
+    "CurrencyCode": "MNT",
+    "Symbol": "₮",
+    "CultureCode": "mn-MN",
+    "NameEnglish": "Mongolia"
+  },
+  {
+    "Country": "Morocco",
+    "Currency": "Moroccan-dirham",
+    "CurrencyCode": "MNT",
+    "Symbol": "د.إ",
+    "CultureCode": "ar-MA",
+    "NameEnglish": "Morocco"
+  },
+  {
+    "Country": "Mozambique",
+    "Currency": "Mozambique Metical",
+    "CurrencyCode": "MZN",
+    "Symbol": "MT",
+    "CultureCode": "pt-MZ",
+    "NameEnglish": "Mozambique"
+  },
+  {
+    "Country": "Namibia",
+    "Currency": "Namibia Dollar",
+    "CurrencyCode": "NAD",
+    "Symbol": "$",
+    "CultureCode": "en-NA",
+    "NameEnglish": "Namibia"
+  },
+  {
+    "Country": "Nepal",
+    "Currency": "Nepalese Rupee",
+    "CurrencyCode": "NPR",
+    "Symbol": "₨",
+    "CultureCode": "ne-NP",
+    "NameEnglish": "Nepal"
+  },
+  {
+    "Country": "Netherlands Antilles",
+    "Currency": "Netherlands Antilles Guilder",
+    "CurrencyCode": "ANG",
+    "Symbol": "ƒ",
+    "CultureCode": "nl-AN",
+    "NameEnglish": "Netherlands Antilles"
+  },
+  {
+    "Country": "New Zealand",
+    "Currency": "New Zealand Dollar",
+    "CurrencyCode": "NZD",
+    "Symbol": "$",
+    "CultureCode": "en-NZ",
+    "NameEnglish": "New Zealand"
+  },
+  {
+    "Country": "Nicaragua",
+    "Currency": "Nicaragua Cordoba",
+    "CurrencyCode": "NIO",
+    "Symbol": "C$",
+    "CultureCode": "es-NI",
+    "NameEnglish": "Nicaragua"
+  },
+  {
+    "Country": "Nigeria",
+    "Currency": "Nigeria Naira",
+    "CurrencyCode": "NGN",
+    "Symbol": "₦",
+    "CultureCode": "en-NG",
+    "NameEnglish": "Nigeria"
+  },
+  {
+    "Country": "Norway",
+    "Currency": "Norway Krone",
+    "CurrencyCode": "NOK",
+    "Symbol": "kr",
+    "CultureCode": "no-NO",
+    "NameEnglish": "Norway"
+  },
+  {
+    "Country": "Oman",
+    "Currency": "Oman Rial",
+    "CurrencyCode": "OMR",
+    "Symbol": "﷼",
+    "CultureCode": "ar-OM",
+    "NameEnglish": "Oman"
+  },
+  {
+    "Country": "Pakistan",
+    "Currency": "Pakistan Rupee",
+    "CurrencyCode": "PKR",
+    "Symbol": "₨",
+    "CultureCode": "en-PK",
+    "NameEnglish": "Pakistan"
+  },
+  {
+    "Country": "Panama",
+    "Currency": "Panama Balboa",
+    "CurrencyCode": "PAB",
+    "Symbol": "B/.",
+    "CultureCode": "es-PA",
+    "NameEnglish": "Panama"
+  },
+  {
+    "Country": "Paraguay",
+    "Currency": "Paraguay Guarani",
+    "CurrencyCode": "PYG",
+    "Symbol": "Gs",
+    "CultureCode": "es-PY",
+    "NameEnglish": "Paraguay"
+  },
+  {
+    "Country": "Peru",
+    "Currency": "Peru Sol",
+    "CurrencyCode": "PEN",
+    "Symbol": "S/.",
+    "CultureCode": "es-PE",
+    "NameEnglish": "Peru"
+  },
+  {
+    "Country": "Philippines",
+    "Currency": "Philippines Peso",
+    "CurrencyCode": "PHP",
+    "Symbol": "₱",
+    "CultureCode": "en-PH",
+    "NameEnglish": "Philippines"
+  },
+  {
+    "Country": "Poland",
+    "Currency": "Poland Zloty",
+    "CurrencyCode": "PLN",
+    "Symbol": "zł",
+    "CultureCode": "pl-PL",
+    "NameEnglish": "Poland"
+  },
+  {
+    "Country": "Qatar",
+    "Currency": "Qatar Riyal",
+    "CurrencyCode": "QAR",
+    "Symbol": "﷼",
+    "CultureCode": "ar-QA",
+    "NameEnglish": "Qatar"
+  },
+  {
+    "Country": "Romania",
+    "Currency": "Romania Leu",
+    "CurrencyCode": "RON",
+    "Symbol": "lei",
+    "CultureCode": "ro-RO",
+    "NameEnglish": "Romania"
+  },
+  {
+    "Country": "Russia",
+    "Currency": "Russia Ruble",
+    "CurrencyCode": "RUB",
+    "Symbol": "₽",
+    "CultureCode": "ru-RU",
+    "NameEnglish": "Russia"
+  },
+  {
+    "Country": "Saint Helena",
+    "Currency": "Saint Helena Pound",
+    "CurrencyCode": "SHP",
+    "Symbol": "£",
+    "CultureCode": "en-SH",
+    "NameEnglish": "Saint Helena"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Currency": "Saudi Arabia Riyal",
+    "CurrencyCode": "SAR",
+    "Symbol": "﷼",
+    "CultureCode": "ar-SA",
+    "NameEnglish": "Saudi Arabia"
+  },
+  {
+    "Country": "Serbia",
+    "Currency": "Serbia Dinar",
+    "CurrencyCode": "RSD",
+    "Symbol": "Дин.",
+    "CultureCode": "sr-RS",
+    "NameEnglish": "Serbia"
+  },
+  {
+    "Country": "Seychelles",
+    "Currency": "Seychelles Rupee",
+    "CurrencyCode": "SCR",
+    "Symbol": "₨",
+    "CultureCode": "en-SC",
+    "NameEnglish": "Seychelles"
+  },
+  {
+    "Country": "Singapore",
+    "Currency": "Singapore Dollar",
+    "CurrencyCode": "SGD",
+    "Symbol": "$",
+    "CultureCode": "en-SG",
+    "NameEnglish": "Singapore"
+  },
+  {
+    "Country": "Soloman Islands",
+    "Currency": "Solomon Islands Dollar",
+    "CurrencyCode": "SBD",
+    "Symbol": "$",
+    "CultureCode": "en-SB",
+    "NameEnglish": "Soloman Islands"
+  },
+  {
+    "Country": "Somalia",
+    "Currency": "Somalia Shilling",
+    "CurrencyCode": "SOS",
+    "Symbol": "S",
+    "CultureCode": "so-SO",
+    "NameEnglish": "Somalia"
+  },
+  {
+    "Country": "South Korea",
+    "Currency": "South Korean Won",
+    "CurrencyCode": "KRW",
+    "Symbol": "₩",
+    "CultureCode": "ko-KR",
+    "NameEnglish": "South Korea"
+  },
+  {
+    "Country": "Sri Lanka",
+    "Currency": "Sri Lanka Rupee",
+    "CurrencyCode": "LKR",
+    "Symbol": "₨",
+    "CultureCode": "si-LK",
+    "NameEnglish": "Sri Lanka"
+  },
+  {
+    "Country": "Swaziland",
+    "Currency": "Swaziland Lilangeni",
+    "CurrencyCode": "SZL",
+    "Symbol": "L",
+    "CultureCode": "en-SZ",
+    "NameEnglish": "Swaziland"
+  },
+  {
+    "Country": "Sweden",
+    "Currency": "Sweden Krona",
+    "CurrencyCode": "SEK",
+    "Symbol": "kr",
+    "CultureCode": "sv-SE",
+    "NameEnglish": "Sweden"
+  },
+  {
+    "Country": "Switzerland",
+    "Currency": "Switzerland Franc",
+    "CurrencyCode": "CHF",
+    "Symbol": "CHF",
+    "CultureCode": "de-CH",
+    "NameEnglish": "Switzerland"
+  },
+  {
+    "Country": "Syria",
+    "Currency": "Syria Pound",
+    "CurrencyCode": "SYP",
+    "Symbol": "£",
+    "CultureCode": "ar-SY",
+    "NameEnglish": "Syria"
+  },
+  {
+    "Country": "Taiwan",
+    "Currency": "Taiwan Dollar",
+    "CurrencyCode": "TWD",
+    "Symbol": "$",
+    "CultureCode": "zh-TW",
+    "NameEnglish": "Taiwan"
+  },
+  {
+    "Country": "Tanzania",
+    "Currency": "Tanzania Shilling",
+    "CurrencyCode": "TZS",
+    "Symbol": "Sh",
+    "CultureCode": "en-TZ",
+    "NameEnglish": "Tanzania"
+  },
+  {
+    "Country": "Thailand",
+    "Currency": "Thailand Baht",
+    "CurrencyCode": "THB",
+    "Symbol": "฿",
+    "CultureCode": "th-TH",
+    "NameEnglish": "Thailand"
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "Currency": "Trinidad and Tobago Dollar",
+    "CurrencyCode": "TTD",
+    "Symbol": "TT$",
+    "CultureCode": "en-TT",
+    "NameEnglish": "Trinidad and Tobago"
+  },
+  {
+    "Country": "Turkey",
+    "Currency": "Turkey Lira",
+    "CurrencyCode": "TRY",
+    "Symbol": "₺",
+    "CultureCode": "tr-TR",
+    "NameEnglish": "Turkey"
+  },
+  {
+    "Country": "Ukraine",
+    "Currency": "Ukraine Hryvnia",
+    "CurrencyCode": "UAH",
+    "Symbol": "₴",
+    "CultureCode": "uk-UA",
+    "NameEnglish": "Ukraine"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Currency": "United Arab Emirates Dirham",
+    "CurrencyCode": "AED",
+    "Symbol": "د.إ",
+    "CultureCode": "ar-AE",
+    "NameEnglish": "United Arab Emirates"
+  },
+  {
+    "Country": "United Kingdom",
+    "Currency": "United Kingdom Pound",
+    "CurrencyCode": "GBP",
+    "Symbol": "£",
+    "CultureCode": "en-GB",
+    "NameEnglish": "United Kingdom"
+  },
+  {
+    "Country": "United States of America",
+    "Currency": "United States Dollar",
+    "CurrencyCode": "USD",
+    "Symbol": "$",
+    "CultureCode": "en-US",
+    "NameEnglish": "United States of America"
+  },
+  {
+    "Country": "Uruguay",
+    "Currency": "Uruguay Peso",
+    "CurrencyCode": "UYU",
+    "Symbol": "$U",
+    "CultureCode": "es-UY",
+    "NameEnglish": "Uruguay"
+  },
+  {
+    "Country": "Uzbekistan",
+    "Currency": "Uzbekistan Som",
+    "CurrencyCode": "UZS",
+    "Symbol": "лв",
+    "CultureCode": "uz-UZ",
+    "NameEnglish": "Uzbekistan"
+  },
+  {
+    "Country": "Venezuela",
+    "Currency": "Venezuela Bolivar",
+    "CurrencyCode": "VES",
+    "Symbol": "Bs",
+    "CultureCode": "es-VE",
+    "NameEnglish": "Venezuela"
+  },
+  {
+    "Country": "Vietnam",
+    "Currency": "Vietnam Dong",
+    "CurrencyCode": "VND",
+    "Symbol": "₫",
+    "CultureCode": "vi-VN",
+    "NameEnglish": "Vietnam"
+  },
+  {
+    "Country": "Yemen",
+    "Currency": "Yemen Rial",
+    "CurrencyCode": "YER",
+    "Symbol": "﷼",
+    "CultureCode": "ar-YE",
+    "NameEnglish": "Yemen"
+  },
+  {
+    "Country": "Zimbabwe",
+    "Currency": "Zimbabwe Dollar",
+    "CurrencyCode": "ZWL",
+    "Symbol": "Z$",
+    "CultureCode": "en-ZW",
+    "NameEnglish": "Zimbabwe"
+  }
+]
