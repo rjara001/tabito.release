@@ -13,11 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Update base href
-        uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
-        with:
-          html_path: 'index.html'
-          base_href: '/tabito.release/'
+     #  - name: Update base href
+      #   uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
+      #   with:
+       #    html_path: 'index.html'
+      #     base_href: '/tabito.release/'
 
       - name: Create 404 page
         run: |
