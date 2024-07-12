@@ -49,18 +49,3 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
-
-.spinner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-}
-table th {
-    text-align: center;
-}
-table th, table td {
-    text-align: center; /* Center align text */
-    vertical-align: baseline; /* Vertically align items in the middle */
-    padding: 8px 1px 8px 1px !important; /* Optional: add padding for better spacing */
-}
