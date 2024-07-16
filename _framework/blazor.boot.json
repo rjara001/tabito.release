@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Tabito.Web.Client",
   "resources": {
-    "hash": "sha256-wbPL/zkHfrbpgyV3P8wXqRi76a59eV0i0RD9JpKsNJA=",
+    "hash": "sha256-t0soLcVYQ1F45Xa+Cq4Mdju6/7tTRZTIjU92RiBGk8A=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.l5a7gi28a6.js": "sha256-fO5wfxvUwQN2pkQhS78YTLtMkaYtimH8c3ioyBbEHo8="
     },
@@ -34,7 +34,7 @@
       "Microsoft.AspNetCore.Authentication.wasm": "sha256-0YcQ8HgfM9d3mbrMDY9k0u3ErpObnxezwaY5o1bCyg8=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-QvwqKmN3mPHVoN9n0G4b1xFxqsFg1fbAtCc+gUY6lsw=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-UXB8H+BgptuLg9huDebz1Isws9wJ4xVTnPBhXFpn298=",
-      "Microsoft.AspNetCore.Components.wasm": "sha256-FdEmp4Jjo5CX0Nt6CjaAX0wSwH20fen8XJQePz5v+MQ=",
+      "Microsoft.AspNetCore.Components.wasm": "sha256-G1zbuauA4PWjgtXcVjg6z6JKGxxFxkE7z8ZNVm046Nk=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-4dflv2MvRkbuImtYbrpUoe2HXzjOD6n9WF7HJR6CTCM=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-KLWp7/BU6JN1ULfO6cbDu5wQXOQ3Th2hhrfl88vlV3E=",
       "Microsoft.AspNetCore.Cryptography.Internal.wasm": "sha256-LvGg97Vby9I2Yox9EI6n1W8oEGq/ksuaYabecLEJ9bQ=",
@@ -184,8 +184,8 @@
       "System.Xml.XDocument.wasm": "sha256-VTvfbfrIXPwUHHSbVNL55Ix/+HgaVg2yv7ggkxDgIm0=",
       "System.Xml.XmlSerializer.wasm": "sha256-nzXlHwI8UU74ZTRDtV73aDHhCngED+Y/rULuj3dwtAM=",
       "System.Xml.XPath.wasm": "sha256-v0Gzo+Bk3OxTTHzoGNKVwMesgQKd8ZfFVg5QVv42mpw=",
-      "Tabito.Share.wasm": "sha256-EV3eU90rZ9YJPgvR49+8zvhjFk+XjDks/m18mxk4Ryk=",
-      "Tabito.Web.Client.wasm": "sha256-vz6BHrEFNs1ESVOl828tdrN4Bf8aZAitdVRUu4viDzA=",
+      "Tabito.Share.wasm": "sha256-N1DOxKuBlMz3D9VOkHWZiScPo2lBHt3vp5ZLkH+/XBw=",
+      "Tabito.Web.Client.wasm": "sha256-lvUhR34AkXv8d0uzWD2wojT06L/Haum0hnbnKT1wTRo=",
       "ZstdSharp.wasm": "sha256-6zV+YbXzfrxvRSjRkWKbqb3yS2VRZmz1dhjJaTWjkOg="
     },
     "libraryInitializers": {

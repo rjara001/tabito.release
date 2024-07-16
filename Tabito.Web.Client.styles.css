@@ -1,6 +1,10 @@
 @import '_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css';
 @import '_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css';
 
+/* /Components/Cells/CellTextElement.razor.rz.scp.css */
+.font-size-input[b-mpjngzkx5g] {
+    font-size: medium !important
+}
 /* /Components/Home/TableList.razor.rz.scp.css */
 .spinner-container[b-wov1izm029] {
     position: fixed;
