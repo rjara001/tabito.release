@@ -64,3 +64,6 @@ table th, table td {
     vertical-align: baseline; /* Vertically align items in the middle */
     padding: 8px 1px 8px 1px !important; /* Optional: add padding for better spacing */
 }
+.cursor-pointer {
+    cursor: pointer;
+}
