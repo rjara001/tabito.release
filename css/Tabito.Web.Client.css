@@ -17,6 +17,13 @@
     text-overflow: clip;
     border: 1px solid #000000;
 }
+/* /Components/TableView.razor.rz.scp.css */
+.total-row[b-hs2440sgrj] {
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border-top: 1px solid;
+    border-bottom: white;
+}
 /* /Layout/PrivateSite/Components/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-g9ragcrcq9] {
     appearance: none;
