@@ -1,26 +1,34 @@
 ﻿
-$(document).ready(function () {
-    var head = $("#sidebar-head");
-    head.click(function (e) {
-        e.preventDefault();
+$(function(){
+    const mobileSizeQuery = window.matchMedia('(max-width: 767.98px)');
+   mobileSizeQuery.addListener(handleMobileSizeChange);
 
-        let obj = $("#sidebar-top");
-        let content = $("#sidebar-content");
-        let icon = $("#imgTabito");
+   // Initial check
+   handleMobileSizeChange(mobileSizeQuery);
 
-
-        if (obj.width() > 60) {
-            obj.css("width", "60px");
-            content.css("visibility", "collapse");
-            icon.attr("src", "assets/logo_mini1.png");
-            icon.css("width", "30px");
-            icon.css("height", "30px");
-        } else {
-            obj.css("width", "250px"); // or your original width
-            content.css("visibility", "visible");
-            icon.attr("src", "assets/logo2.png"); // or your original image
-            icon.css("width", "100px");
-            icon.css("height", "37.87px");
-        }
-    });
+   // toggle sidebar collapse
+   $('.btn-toggle-sidebar').on('click', function(){
+       $('.wrapper').toggleClass('sidebar-collapse');
+   });
+   // mark sidebar item as active when clicked
+   $('.nav-item').on('click', function(){
+       if ($(this).hasClass('btn-toggle-sidebar')) {
+         return; // already actived
+       }
+       $(this).siblings().removeClass('active');
+       $(this).siblings().find('.nav-item').removeClass('active');
+       $(this).addClass('active');
+   })
 });
+
+function handleMobileSizeChange(e) {
+   if (e.matches) {
+       $('.bottom-bar').removeClass('disabled');
+       $('.wrapper').addClass('mobile');
+   // Add any additional actions here
+   } else {
+       $('.bottom-bar').addClass('disabled');
+       $('.wrapper').removeClass('mobile');
+   // Add any additional actions here
+   }
+}
