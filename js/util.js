@@ -24,3 +24,25 @@ window.clickOutsideHandler = {
         };
     }
 };
+
+window.resizeHandler = {
+    initialize: function (dotnetHelper) {
+        function reportSize() {
+            dotnetHelper.invokeMethodAsync('SetIsMobile', window.innerWidth <= 768);
+        }
+
+        // Report the initial size
+        reportSize();
+
+        // Set up event listener for resize
+        window.addEventListener('resize', reportSize);
+
+        // Clean up event listener when no longer needed
+        return {
+            dispose: () => window.removeEventListener('resize', reportSize)
+        };
+    },
+    isMobile: function () {
+        return window.innerWidth <= 768;
+    }
+};
