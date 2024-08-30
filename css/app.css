@@ -97,7 +97,6 @@ table th, table td {
 
 .wrapper .sidebar {
   width: 200px;
-  height: 100%;
   white-space: nowrap;
   transition-duration: 0.5s;
   z-index: 1000;
