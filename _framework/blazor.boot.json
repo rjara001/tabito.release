@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Tabito.Web.Client",
   "resources": {
-    "hash": "sha256-f3JLVbEsgCeML8ZjJ55lLIIdMuoQbSqJz9btB4/aaI8=",
+    "hash": "sha256-mFBO+aj8dxKDzqHu8wQhhuX2Xf68syGUSUxXqL/GOAw=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.l5a7gi28a6.js": "sha256-fO5wfxvUwQN2pkQhS78YTLtMkaYtimH8c3ioyBbEHo8="
     },
@@ -186,7 +186,7 @@
       "System.Xml.XPath.wasm": "sha256-v0Gzo+Bk3OxTTHzoGNKVwMesgQKd8ZfFVg5QVv42mpw=",
       "Tabito.Model.wasm": "sha256-JT7f/GyT8OedWvx2p84/BvcxCZOraKGlBL9AS+yZ3k8=",
       "Tabito.Web.Client.Services.wasm": "sha256-FHJgL/sAUV4IW2qL2XpBebGFmRHoDRv9cHInUyWa0ow=",
-      "Tabito.Web.Client.wasm": "sha256-F7oVv6x7bYtrAlXtLqyO3Lj9cKsB1+eQd2x/DSYzaic=",
+      "Tabito.Web.Client.wasm": "sha256-5lncLn9e8CvTG7WnjzA/Vvm8PnlnyyALfsg1tdCMWZ8=",
       "ZstdSharp.wasm": "sha256-6zV+YbXzfrxvRSjRkWKbqb3yS2VRZmz1dhjJaTWjkOg="
     },
     "libraryInitializers": {
