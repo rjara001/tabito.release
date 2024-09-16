@@ -46,3 +46,21 @@ window.resizeHandler = {
         return window.innerWidth <= 768;
     }
 };
+
+// wwwroot/js/clientInfo.js
+window.getClientIpAndDeviceInfo = async function () {
+    // Fetch client IP address using a public API
+    const ipResponse = await fetch('https://api.ipify.org?format=json');
+    const ipData = await ipResponse.json();
+    const ipAddress = ipData.ip;
+
+    // Get device information using the navigator object
+    const userAgent = navigator.userAgent || "Unknown";
+    const platform = navigator.platform || "Unknown";
+
+    return {
+        ipAddress: ipAddress,
+        userAgent: userAgent,
+        platform: platform
+    };
+}
