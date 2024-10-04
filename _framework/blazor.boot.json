@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Tabito.Web.Client",
   "resources": {
-    "hash": "sha256-BVvF1cZ+pL2CDBcMrUPQOLe93YY+tI5wf0bxEbuL4Vw=",
+    "hash": "sha256-JnMIWtptk0xWYGjtzehNXeCbitwqocJHe+EIBPn0ano=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.l5a7gi28a6.js": "sha256-fO5wfxvUwQN2pkQhS78YTLtMkaYtimH8c3ioyBbEHo8="
     },
@@ -152,7 +152,7 @@
       "System.Runtime.Numerics.wasm": "sha256-aIYAuX1k7qbUZz5iOCjvqZq5Fz9lXAHhoYWIzTQKwA4=",
       "System.Runtime.Serialization.Formatters.wasm": "sha256-IGv3AiLx+hJTeF3CnUwedlE6XsLn9xcPbB2/aDIYhKI=",
       "System.Runtime.Serialization.Primitives.wasm": "sha256-cAmRBLV3b05U5jIPEv1ILU8xtKlRaA/2EAQrHIWMMOU=",
-      "System.Runtime.wasm": "sha256-L3Uv3RqG30QOnt8XRu2cEF/Y3Wv23i2ozxkOuiK3fAo=",
+      "System.Runtime.wasm": "sha256-4oBWmXrA7rdDCI5dIUG+TmxIX1KLbfoP+QxiSrIGN9U=",
       "System.Security.AccessControl.wasm": "sha256-35n0C9OWQdimyZP8pUJwl5oqPvcK2GjTQHGK4/Rvfu8=",
       "System.Security.Claims.wasm": "sha256-/0BoJrxiVUyQ/hoCsfxeZEeDanLeM6mMObtxIDbWCRc=",
       "System.Security.Cryptography.Algorithms.wasm": "sha256-PSx5o5aiMMy2R0ZFNazf8Bqq9qodcYOwIZnedJVDZ7w=",
@@ -184,9 +184,9 @@
       "System.Xml.XDocument.wasm": "sha256-VTvfbfrIXPwUHHSbVNL55Ix/+HgaVg2yv7ggkxDgIm0=",
       "System.Xml.XmlSerializer.wasm": "sha256-nzXlHwI8UU74ZTRDtV73aDHhCngED+Y/rULuj3dwtAM=",
       "System.Xml.XPath.wasm": "sha256-v0Gzo+Bk3OxTTHzoGNKVwMesgQKd8ZfFVg5QVv42mpw=",
-      "Tabito.Model.wasm": "sha256-9aPle1xyFM/SAqKjrZXvPYLrNsgnx4jJ18Dix8Ub3nw=",
-      "Tabito.Web.Client.Services.wasm": "sha256-WdMGrfjT6Vt+asNflOBCuYMFa3Q+pDHnsxgNZMvwTHc=",
-      "Tabito.Web.Client.wasm": "sha256-WWnnClbvOe0zUNBmxAKQ6DoEFM/wxlYr+pKB9f4jTkU=",
+      "Tabito.Model.wasm": "sha256-1VJXe9+/FhPPkNW2QCUI7XMZN/RLfDjCnDgsC2Lw6k0=",
+      "Tabito.Web.Client.Services.wasm": "sha256-n9ruEfhP6O9xMyIxWpydGhlptKjiNvy+UBErIp88DPg=",
+      "Tabito.Web.Client.wasm": "sha256-pIxEy26Gyaqc342QVnYdy/Du7warSgFlHu9EeQnh8Sk=",
       "ZstdSharp.wasm": "sha256-6zV+YbXzfrxvRSjRkWKbqb3yS2VRZmz1dhjJaTWjkOg="
     },
     "libraryInitializers": {
