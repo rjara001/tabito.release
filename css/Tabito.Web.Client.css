@@ -188,6 +188,25 @@ p[b-1d7c737ja3] {
 .font-size-input[b-mpjngzkx5g] {
     font-size: medium !important
 }
+/* /Components/Grid/WhiteBoxElement.razor.rz.scp.css */
+.smooth-box[b-6yr4svn9fc] {
+    background-color: #fff; /* White background */
+    border-radius: .25rem; /* Rounded corners */
+    border: 1px solid rgba(0,0,0,.15); /* Light gray border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the box */
+    opacity: 0; /* Initially invisible */
+    transform: translateY(20px); /* Slight movement for animation */
+    transition: opacity 1s ease, transform 1s ease; /* Smooth transitions */
+    color: #212529;
+}
+
+    .smooth-box.visible[b-6yr4svn9fc] {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Move to original position */
+    }
+
+
 /* /Components/Home/TableList.razor.rz.scp.css */
 .spinner-container[b-wov1izm029] {
     position: fixed;
