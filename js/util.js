@@ -53,6 +53,8 @@ window.getClientIpAndDeviceInfo = async function () {
     const ipResponse = await fetch('https://api.ipify.org?format=json');
     const ipData = await ipResponse.json();
     const ipAddress = ipData.ip;
+    const language = navigator.language || navigator.userLanguage;
+    const languages = navigator.languages;
 
     // Get device information using the navigator object
     const userAgent = navigator.userAgent || "Unknown";
@@ -61,6 +63,8 @@ window.getClientIpAndDeviceInfo = async function () {
     return {
         ipAddress: ipAddress,
         userAgent: userAgent,
-        platform: platform
+        platform: platform,
+        language: language,
+        languages: languages
     };
 }
