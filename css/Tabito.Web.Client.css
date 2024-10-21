@@ -188,6 +188,33 @@ p[b-1d7c737ja3] {
 .font-size-input[b-mpjngzkx5g] {
     font-size: medium !important
 }
+.feedback-visible[b-mpjngzkx5g] {
+    display: block !important; /* Show the feedback */
+}
+
+.feedback-hidden[b-mpjngzkx5g] {
+    display: none !important; /* Hide the feedback */
+}
+/* /Components/Grid/CellContentEditableWrapped.razor.rz.scp.css */
+.wrapper-cell[b-3au3c7u9ct]{
+    width: 100%;
+    height:25px;
+}
+.date-format-info[b-3au3c7u9ct] {
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+    color: #333;
+}
+
+.date-format-info label[b-3au3c7u9ct] {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.date-format-info span[b-3au3c7u9ct] {
+    font-style: italic;
+    color: #007bff;
+}
 /* /Components/Grid/WhiteBoxElement.razor.rz.scp.css */
 .smooth-box[b-6yr4svn9fc] {
     background-color: #fff; /* White background */

@@ -227,3 +227,14 @@ table th, table td {
   border: initial;
   border-radius: initial;
 }
+
+.show {
+    display: block; /* or any display type you prefer */
+}
+
+.hide {
+    display: none;
+}
+.float-right{
+    float:right
+}
