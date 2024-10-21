@@ -196,10 +196,7 @@ p[b-1d7c737ja3] {
     display: none !important; /* Hide the feedback */
 }
 /* /Components/Grid/CellContentEditableWrapped.razor.rz.scp.css */
-.wrapper-cell[b-3au3c7u9ct]{
-    width: 100%;
-    height:25px;
-}
+
 .date-format-info[b-3au3c7u9ct] {
     font-family: Arial, sans-serif;
     margin: 10px 0;
