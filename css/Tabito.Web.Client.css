@@ -212,6 +212,16 @@ p[b-1d7c737ja3] {
     font-style: italic;
     color: #007bff;
 }
+/* /Components/Grid/CellEditables/WhileBoxWritableElement.razor.rz.scp.css */
+
+.downdrop-popup[b-zhy300mofq] {
+
+    position: absolute;
+    z-index: 1000;
+    width: auto; /* Allows the width to adjust based on content */
+    max-width: none; /* Remove the max-width constraint */
+    white-space: nowrap; /* Prevents the popup from breaking lines if you want it in a single line */
+}
 /* /Components/Grid/WhiteBoxElement.razor.rz.scp.css */
 .smooth-box[b-6yr4svn9fc] {
     background-color: #fff; /* White background */
@@ -572,3 +582,17 @@ main[b-yhyw5huqk4] {
         right: 0.75rem;
         top: 0.5rem;
     }
+/* /Pages/Dialogs/PendingChanges.razor.rz.scp.css */
+.container[b-xo6skktd3c] {
+    white-space: nowrap;  /* Prevent line breaks */
+    overflow: hidden;     /* Hide overflowed text */
+    text-overflow: ellipsis; /* Add ellipsis if content overflows */
+}
+
+.item[b-xo6skktd3c], .separator[b-xo6skktd3c] {
+    display: inline;      /* Display items in a single line */
+}
+
+.separator[b-xo6skktd3c] {
+    margin: 0 5px;        /* Add space around the separator */
+}
