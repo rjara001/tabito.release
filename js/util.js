@@ -68,3 +68,21 @@ window.getClientIpAndDeviceInfo = async function () {
         languages: languages
     };
 }
+window.bindPreventDropdownClose = function (dropdownElement) {
+    if (dropdownElement) {
+        dropdownElement.addEventListener('click', function (event) {
+            // Allow clicks on button elements to propagate (bypass stopPropagation)
+            if (event.target.tagName.toLowerCase() !== 'button' && event.target.tagName.toLowerCase() !== 'li') {
+                event.stopPropagation();
+            }
+        });
+    }
+};
+window.preventDropdownCloseForAutoComplete = function (autoCompleteElement) {
+    if (autoCompleteElement) {
+        // Stop propagation on any click within the AutoComplete area
+        autoCompleteElement.addEventListener('click', function (event) {
+            event.stopPropagation();
+        });
+    }
+};
