@@ -238,3 +238,6 @@ table th, table td {
 .float-right{
     float:right
 }
+.h700 {
+  height: 700px;
+}
