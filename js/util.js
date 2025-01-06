@@ -86,3 +86,6 @@ window.preventDropdownCloseForAutoComplete = function (autoCompleteElement) {
         });
     }
 };
+window.setCursorStyle = function (style) {
+    document.body.style.cursor = style;
+};
