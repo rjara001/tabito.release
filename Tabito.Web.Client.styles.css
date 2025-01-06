@@ -215,6 +215,11 @@ p[b-1d7c737ja3] {
     font-style: italic;
     color: #007bff;
 }
+/* /Components/Grid/CellEditables/CellContainer.razor.rz.scp.css */
+.btn-close-sm[b-7c7skyx4gv] {
+    width: 0.75rem; /* Smaller width */
+    height: 0.75rem; /* Smaller height */
+}
 /* /Components/Grid/CellEditables/WhileBoxWritableElement.razor.rz.scp.css */
 
 .downdrop-popup[b-zhy300mofq] {

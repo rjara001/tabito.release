@@ -24,6 +24,15 @@
             showPopUp(event.target, popUp);
         });
 
+        // Add close button functionality
+        const closeButton = popUp.querySelector('.popup-close');
+        if (closeButton) {
+            closeButton.addEventListener('click', function () {
+                hidePopUp(popUp);
+            });
+        }
+   
+
         function showPopUp(pen, popUp) {
             clearTimeout(hideTimeout);
             popUp.classList.remove('hide');
@@ -52,6 +61,12 @@
         }
 
         function hidePopUp(popUp) {
+            // Check if any input inside the popup is focused
+            const activeElement = document.activeElement;
+            if (popUp.contains(activeElement) && (activeElement.tagName === 'INPUT' || activeElement.tagName === 'TEXTAREA')) {
+                return; // Do not hide if user is typing
+            }
+
             popUp.classList.add('hide');
             popUp.classList.remove('show'); // Hide popup
         }
