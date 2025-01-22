@@ -264,8 +264,17 @@ p[b-1d7c737ja3] {
     text-overflow: clip;
     border: 1px solid #000000;
 }
-/* /Components/TableView.razor.rz.scp.css */
-.total-row[b-hs2440sgrj] {
+/* /Components/TableViewContent/RowMenuOptions.razor.rz.scp.css */
+
+.hidden[b-twz3ion3of] {
+    display: none;
+}
+
+.flex-style[b-twz3ion3of] {
+    display: flex;
+}
+/* /Components/TableViewContent/TableView.razor.rz.scp.css */
+.total-row[b-nwp9k1p9sl] {
     font-weight: bold;
     background-color: #f8f9fa;
     border-top: 1px solid;
