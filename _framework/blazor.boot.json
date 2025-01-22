@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Tabito.Web.Client",
   "resources": {
-    "hash": "sha256-LrCFQiz7PCTF0y7KPDpvTus8juEuZM4WPpx00scYUAg=",
+    "hash": "sha256-7f9HME+o8+9BpCZ8nXOud5CJBboKooO6zvwkftCh9zs=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -35,7 +35,7 @@
       "Microsoft.AspNetCore.Authentication.wasm": "sha256-0YcQ8HgfM9d3mbrMDY9k0u3ErpObnxezwaY5o1bCyg8=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-DhkNNO1kwA5JFWKhTHjYbl1zGsd/XMnAFE5oq5m1BMw=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-ZFUxVMBS8N5B+zZNqhKuHM6MXaxFwy/MGx8rwXhzo+k=",
-      "Microsoft.AspNetCore.Components.wasm": "sha256-UIjY1VXAdY8sJvVR/vp2xt3NMraY/+x0chFvjx2+Vsk=",
+      "Microsoft.AspNetCore.Components.wasm": "sha256-FN0I2YF5GUatW+GdNnINhGliVaET6FVqYuxeyxZnL6k=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-uvF6srhPsGADGIrMat3SgugQMo6K9E+BP/A5DRnJGsg=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-BxtswaIYcLvrqsBvO6iMVywlLEoYcPs2iZY9UHndlQI=",
       "Microsoft.AspNetCore.Cryptography.Internal.wasm": "sha256-LvGg97Vby9I2Yox9EI6n1W8oEGq/ksuaYabecLEJ9bQ=",
@@ -185,9 +185,9 @@
       "System.Xml.XDocument.wasm": "sha256-sYZ5e1MCj4Me7575PI+con6HN1DPiGeyx9n31YIzbUA=",
       "System.Xml.XmlSerializer.wasm": "sha256-e9S0dfz6GnxN4rvaCUZREK6zlIcoIPIScM/uUDzIlNU=",
       "System.Xml.XPath.wasm": "sha256-hhs3/Vvj8+HpCzfVkg3V5mLq+HWXIgcUlvg/uUh6Zr8=",
-      "Tabito.Model.wasm": "sha256-6m2SceHhkZwOXEebH9R5qIFptKtEjDPFZkbQe8Dcs9A=",
-      "Tabito.Web.Client.Services.wasm": "sha256-taznSkPxd0OSmn4FkpIVnyp5UR2aHd0vw9WlFpZWbwc=",
-      "Tabito.Web.Client.wasm": "sha256-qBpnSM5qXtWbl//h3aPcVfjZxLQVTYI/gaopLtX5XYo=",
+      "Tabito.Model.wasm": "sha256-SUqNomXxH3VC8joAnH5gfqPhbbJqBCGf2AAovIlqL6U=",
+      "Tabito.Web.Client.Services.wasm": "sha256-yzvyQqdZcHlqkYT3+UY0P3bJgNQVObmbzOH+Ghp3+8c=",
+      "Tabito.Web.Client.wasm": "sha256-P6aF4KsqKagtOuoXZCCf7p9NLIO2mzC2RZeBm5cgd+c=",
       "ZstdSharp.wasm": "sha256-6zV+YbXzfrxvRSjRkWKbqb3yS2VRZmz1dhjJaTWjkOg="
     },
     "libraryInitializers": {
