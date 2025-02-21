@@ -7,6 +7,19 @@ function saveAsFile(fileName, byteBase64) {
     document.body.removeChild(link);
 };
 
+async function extractPdfText(fileBytes) {
+    let pdfData = new Uint8Array(fileBytes);
+    let loadingTask = pdfjsLib.getDocument({ data: pdfData });
+    let pdf = await loadingTask.promise;
+    let text = "";
+    for (let i = 1; i <= pdf.numPages; i++) {
+        let page = await pdf.getPage(i);
+        let textContent = await page.getTextContent();
+        text += textContent.items.map(s => s.str).join(" ") + "\n";
+    }
+    return text;
+}
+
 window.clickOutsideHandler = {
     initialize: function (element, dotNetHelper) {
         function handleClick(event) {
