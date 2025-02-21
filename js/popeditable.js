@@ -1,20 +1,71 @@
-﻿function initializePopups() {
-    const pens = document.querySelectorAll('.downdrop-trigger');
+﻿function moveFirstToLast(container) {
+    // Select the parent container
 
-    pens.forEach(pen => {
-        const popUp = pen.parentElement.nextElementSibling; // Get the corresponding pop-up
+    // Select the first child (pencil) and last child (clipboard) elements
+    const firstElement = container.firstElementChild;
+    const lastElement = container.lastElementChild;
+    
+    if (firstElement && lastElement) {
+        // Move the first element (pencil) to the last position in the container
+        container.appendChild(firstElement); // This moves the first child to the end of the container
+    }
+}
+
+function showElement(element) {
+
+    if (element) {
+        element.classList.remove('d-none');
+    }
+}
+
+function hidElement(element) {
+
+    if (element) {
+        element.classList.add('d-none');
+    }
+}
+
+function initializePopups() {
+    const actions = document.querySelectorAll('.actions');
+
+    actions.forEach(action => {
+        const popUp = action.nextElementSibling; // Get the corresponding pop-up
         if (!popUp) return;
 
-        const cellParent = popUp.closest('.cell');
-        if (cellParent) {
-            cellParent.addEventListener('click', () => {
-                pen.classList.remove('opacity-0'); // Show button
-                pen.classList.add('opacity-100');
-            });
+        const cellParent = action.parentElement;
+        const cellElement = cellParent.querySelector('.element-1');
 
+        const pen = action.querySelector('.downdrop-trigger');
+        const copy = action.querySelector('.copy-trigger');
+        const paste = action.querySelector('.paste-trigger');
+
+        if (cellParent) {
+            if (!cellParent._clickEventAdded)
+                cellParent.addEventListener('click', () => {
+
+                    showElement(pen);
+                    showElement(copy);
+                    if (paste.classList.contains('active'))
+                    {
+                        // moveFirstToLast(action);
+                        showElement(paste);
+                    }                    
+                });
+            cellParent._clickEventAdded = true;
+                
             cellParent.addEventListener('mouseleave', () => {
-                pen.classList.remove('opacity-100'); // Hide button
-                pen.classList.add('opacity-0');
+                const copy = pen.nextElementSibling;
+                const paste = copy.nextElementSibling;
+
+                hidElement(pen);
+                hidElement(copy);
+                hidElement(paste);
+                // if (paste.classList.contains('opacity-0'))
+                // {
+                //     moveFirstToLast(action);
+                //     moveFirstToLast(action);
+                // }
+                    
             });
         }
 
@@ -30,8 +81,7 @@
             closeButton.addEventListener('click', function () {
                 hidePopUp(popUp);
             });
-        }
-   
+        }   
 
         function showPopUp(pen, popUp) {
             clearTimeout(hideTimeout);

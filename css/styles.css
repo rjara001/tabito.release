@@ -8292,14 +8292,6 @@ textarea.form-control-lg {
   border-top-left-radius: var(--bs-border-radius) !important;
 }
 
-.visible {
-  visibility: visible !important;
-}
-
-.invisible {
-  visibility: hidden !important;
-}
-
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
