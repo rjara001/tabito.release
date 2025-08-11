@@ -277,6 +277,18 @@ p[b-1d7c737ja3] {
     border-top: 1px solid;
     border-bottom: white;
 }
+.total-cell[b-nwp9k1p9sl] {
+    justify-self: right;
+}
+.table-cell[b-nwp9k1p9sl] {
+    justify-items: center;
+}
+.table-cell-numeric[b-nwp9k1p9sl] {
+    justify-items: right;
+}
+.table-total[b-nwp9k1p9sl] {
+    text-align: right;
+}
 /* /Layout/PrivateSite/Components/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-g9ragcrcq9] {
     appearance: none;
