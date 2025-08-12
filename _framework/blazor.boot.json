@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Tabito.Web.Client",
   "resources": {
-    "hash": "sha256-7HNCDvb4WBZ+Er+Hn9W6X/eoiWqakPOO89qp7rTPleU=",
+    "hash": "sha256-gxswG2VxnlBgOXUe4qRUovBV1LvGJR7mdKoTsr9Xvxk=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -209,7 +209,7 @@
       "System.Xml.XPath.wasm": "sha256-hhs3/Vvj8+HpCzfVkg3V5mLq+HWXIgcUlvg/uUh6Zr8=",
       "Tabito.Model.wasm": "sha256-Hh9nXAF4vrK7cGPF4btwKi9loXN8x05z7CLVty5IC/c=",
       "Tabito.Web.Client.Services.wasm": "sha256-+8sFYJkavW6IXb3E3FRbNfLoUrFjKb5xEckkhj6xvRA=",
-      "Tabito.Web.Client.wasm": "sha256-B7pITii1dcCEcWmD3VNA8SI0U/CBsbr02UiiNhYmgf0=",
+      "Tabito.Web.Client.wasm": "sha256-AaInffw/ef7hVEijiUeLR7lcImtdEYd6wGKMy5glcVY=",
       "UglyToad.PdfPig.Core.wasm": "sha256-7WlB7lHj5WM4Tdmq60vM3e75A7XBf8T4tdi/oNxhF9o=",
       "UglyToad.PdfPig.DocumentLayoutAnalysis.wasm": "sha256-Ho9R3VYbHF10Qb5IDoMWQpnV4uFkkuaMouy6zFYeRRI=",
       "UglyToad.PdfPig.Fonts.wasm": "sha256-midyEnUxRGjT9XiJuxW7iXlmpTG5XuYNuQC0/+je/2w=",
