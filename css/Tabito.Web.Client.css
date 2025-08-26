@@ -227,6 +227,12 @@ p[b-1d7c737ja3] {
     max-width: none; /* Remove the max-width constraint */
     white-space: nowrap; /* Prevents the popup from breaking lines if you want it in a single line */
 }
+/* /Components/Grid/CellGridEditable.razor.rz.scp.css */
+.element-1[b-48qvi83of9] {
+    white-space: normal;
+    max-height: 3em;
+    overflow: hidden;
+}
 /* /Components/Grid/WhiteBoxElement.razor.rz.scp.css */
 .smooth-box[b-6yr4svn9fc] {
     background-color: #fff; /* White background */
@@ -261,32 +267,32 @@ p[b-1d7c737ja3] {
     text-overflow: clip;
     border: 1px solid #000000;
 }
-/* /Components/TableViewContent/RowMenuOptions.razor.rz.scp.css */
+/* /Components/TableView/RowMenuOptions.razor.rz.scp.css */
 
-.hidden[b-twz3ion3of] {
+.hidden[b-y7uhhnkem5] {
     display: none;
 }
 
-.flex-style[b-twz3ion3of] {
+.flex-style[b-y7uhhnkem5] {
     display: flex;
 }
-/* /Components/TableViewContent/TableView.razor.rz.scp.css */
-.total-row[b-nwp9k1p9sl] {
+/* /Components/TableView/TablePagedView.razor.rz.scp.css */
+.total-row[b-qqfk4cop9c] {
     font-weight: bold;
     background-color: #f8f9fa;
     border-top: 1px solid;
     border-bottom: white;
 }
-.total-cell[b-nwp9k1p9sl] {
+.total-cell[b-qqfk4cop9c] {
     justify-self: right;
 }
-.table-cell[b-nwp9k1p9sl] {
+.table-cell[b-qqfk4cop9c] {
     justify-items: center;
 }
-.table-cell-numeric[b-nwp9k1p9sl] {
+.table-cell-numeric[b-qqfk4cop9c] {
     justify-items: right;
 }
-.table-total[b-nwp9k1p9sl] {
+.table-total[b-qqfk4cop9c] {
     text-align: right;
 }
 /* /Layout/PrivateSite/Components/NavMenu.razor.rz.scp.css */
@@ -632,16 +638,92 @@ main[b-yhyw5huqk4] {
         top: 0.5rem;
     }
 /* /Pages/Dialogs/PendingChanges.razor.rz.scp.css */
-.container[b-xo6skktd3c] {
-    white-space: nowrap;  /* Prevent line breaks */
-    overflow: hidden;     /* Hide overflowed text */
-    text-overflow: ellipsis; /* Add ellipsis if content overflows */
+.change-notification[b-xo6skktd3c] {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    list-style: none;
+    /* remove overflow: hidden; so scroll inside works */
 }
 
-.item[b-xo6skktd3c], .separator[b-xo6skktd3c] {
-    display: inline;      /* Display items in a single line */
+.notification-header[b-xo6skktd3c] {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.notification-header.warning[b-xo6skktd3c] {
+    background: #f44336;
+}
+
+.notification-header.info[b-xo6skktd3c] {
+    background: #2196F3;
+}
+
+.notification-content[b-xo6skktd3c] {
+    padding: 15px;
+    background: white;
+}
+
+.scrollable[b-xo6skktd3c] {
+    max-height: 500px; /* adjust to fit your design */
+    overflow-y: auto;
+    padding-right: 8px; /* keeps text from overlapping scrollbar */
+}
+
+.row-values[b-xo6skktd3c] {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.value-pill[b-xo6skktd3c] {
+    background: #e8f5e9;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.9em;
 }
 
 .separator[b-xo6skktd3c] {
-    margin: 0 5px;        /* Add space around the separator */
+    color: #aaa;
+}
+
+.deleted-values[b-xo6skktd3c] {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.deleted-value[b-xo6skktd3c] {
+    padding: 6px 10px;
+    background: #ffebee;
+    border-left: 3px solid #f44336;
+}
+
+.change-details[b-xo6skktd3c] {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.change-label[b-xo6skktd3c] {
+    font-weight: 600;
+    color: #555;
+    margin-right: 8px;
+}
+
+.old-value[b-xo6skktd3c] {
+    text-decoration: line-through;
+    color: #f44336;
+}
+
+.new-value[b-xo6skktd3c] {
+    color: #4CAF50;
+    font-weight: 500;
 }
