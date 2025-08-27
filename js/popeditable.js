@@ -33,7 +33,6 @@ function initializePopups() {
         if (!popUp) return;
 
         const cellParent = action.parentElement;
-        const cellElement = cellParent.querySelector('.element-1');
 
         const pen = action.querySelector('.downdrop-trigger');
         const copy = action.querySelector('.copy-trigger');

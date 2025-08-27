@@ -235,6 +235,7 @@ p[b-1d7c737ja3] {
     white-space: normal;
     max-height: 3em;
     overflow: hidden;
+    white-space: nowrap;
 }
 /* /Components/Grid/WhiteBoxElement.razor.rz.scp.css */
 .smooth-box[b-6yr4svn9fc] {
@@ -423,6 +424,20 @@ p[b-1d7c737ja3] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+.scrollable-list[b-g9ragcrcq9] {
+    max-height: 70vh;                 /* same as your inline max-height */
+    overflow-y: auto;                 /* vertical scrolling */
+    overflow-x: hidden;               /* no horizontal scroll */
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on mobile */
+    
+    /* Hide scrollbars */
+    scrollbar-width: none;            /* Firefox */
+    -ms-overflow-style: none;         /* IE and old Edge */
+}
+
+.scrollable-list[b-g9ragcrcq9]::-webkit-scrollbar { /* Chrome, Safari, Edge */
+    display: none;
 }
 /* /Layout/PrivateSite/Private.razor.rz.scp.css */
 .page[b-3lez6qbdb6] {
