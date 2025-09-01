@@ -229,10 +229,11 @@ p[b-1d7c737ja3] {
 }
 /* /Components/Grid/CellGridEditable.razor.rz.scp.css */
 .element-1[b-48qvi83of9] {
-    white-space: normal;
-    max-height: 3em;
-    overflow: hidden;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 300px;
 }
 /* /Components/Grid/WhiteBoxElement.razor.rz.scp.css */
 .smooth-box[b-6yr4svn9fc] {
@@ -367,12 +368,7 @@ p[b-1d7c737ja3] {
 
 .nav-item[b-g9ragcrcq9] {
     font-size: 0.9rem;
-    padding-bottom: 0.5rem;
 }
-
-    .nav-item:first-of-type[b-g9ragcrcq9] {
-        padding-top: 1rem;
-    }
 
     .nav-item:last-of-type[b-g9ragcrcq9] {
         padding-bottom: 1rem;
