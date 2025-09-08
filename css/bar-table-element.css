@@ -115,8 +115,10 @@
 
 /* Popover visible */
 .bar-popover-component .popover.active {
-    transform: translateX(-50%) scale(1);
+    transform: translateX(-70%) translateX(-10px) scale(1);
     opacity: 1;
+    width: 480px !important;
+    max-width: none !important;
     visibility: visible;
 }
 
