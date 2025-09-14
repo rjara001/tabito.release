@@ -1,4 +1,7 @@
 window.initDateRangePicker = (selector, dotNetRef, format) => {
+
+    console.log(`Initializing date range picker on ${selector} with format ${format}`);
+
     $(selector).daterangepicker({
         autoUpdateInput: true, // <-- let the input update automatically
         opens: 'center',
