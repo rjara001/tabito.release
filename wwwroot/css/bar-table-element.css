@@ -1,0 +1,206 @@
+.bar-popover-component .btn-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.bar-popover-component .content {
+    padding: 25px;
+}
+
+.bar-popover-component .filter-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.bar-popover-component .filter-header {
+    padding: 15px 20px;
+    background: #4a6fa5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-popover-component .filter-header h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.bar-popover-component .filter-badge {
+    background: #3498db;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.bar-popover-component .filter-body {
+    padding: 20px;
+}
+
+.bar-popover-component .data-summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.bar-popover-component .entries-count {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #3498db;
+    margin-right: 15px;
+}
+
+.bar-popover-component .entries-text {
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+.bar-popover-component .filters-section {
+    margin-bottom: 20px;
+}
+
+.bar-popover-component .filters-section h3 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: #4a5568;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bar-popover-component .filter-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bar-popover-component .filter-tag {
+    background: #ebf4ff;
+    color: #3498db;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #bee3f8;
+    transition: all 0.2s ease;
+}
+
+.bar-popover-component .filter-tag:hover {
+    background: #d6e8ff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bar-popover-component .filter-tag i.fa-times {
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 50%;
+    background: #a0c5f7;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.bar-popover-component .filter-tag i.fa-times:hover {
+    background: #e53e3e;
+    transform: scale(1.1);
+}
+
+/* Popover visible */
+.bar-popover-component .popover.active {
+    transform: translateX(-70%) translateX(-10px) scale(1);
+    opacity: 1;
+    width: 480px !important;
+    max-width: none !important;
+    visibility: visible;
+}
+
+/* Initial state: Popover is hidden and scaled down */
+.bar-popover-component .popover {
+    /* Existing styles from the filter card */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+
+    /* Positioning and visibility styles */
+    position: absolute;
+    top: calc(100% + 6px);
+    transform: translateX(-50%) scale(0.9);
+    transform-origin: top center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    width: 280px;
+}
+
+/* Sorting section styles */
+.bar-popover-component .sorting-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9fafb;
+    border-radius: 8px;
+    border-left: 4px solid #4a6fa5;
+}
+
+.bar-popover-component .sorting-section h3 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: #4a5568;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bar-popover-component .sort-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bar-popover-component .sort-tag {
+    background: #fff4e6;
+    color: #e67700;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ffd8a8;
+    transition: all 0.2s ease;
+}
+
+.bar-popover-component .sort-tag:hover {
+    background: #ffe8cc;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bar-popover-component .sort-tag i.fa-times {
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 50%;
+    background: #ffc078;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.bar-popover-component .sort-tag i.fa-times:hover {
+    background: #e53e3e;
+    transform: scale(1.1);
+}
+
+.bar-popover-component .sort-order {
+    margin-left: 6px;
+    font-weight: 600;
+}
