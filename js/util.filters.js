@@ -49,7 +49,7 @@ document.addEventListener("click", function (event) {
   }
   _downInsideCalendar = false;
 
-  const allFilters = document.querySelectorAll(".dropdown-menu.show");
+  const allFilters = document.querySelectorAll(".dropdown-menu.popup-filter.show");
 
   let clickedInsideFilter = false;
   allFilters.forEach(filter => {
@@ -65,3 +65,11 @@ document.addEventListener("click", function (event) {
     allFilters.forEach(f => f.classList.remove("show")); // clicked outside everything
   }
 });
+
+document.closeAllPopupFilter = () => {
+  const allFilters = document.querySelectorAll(".dropdown-menu.popup-filter.show");
+
+  allFilters.forEach(filter => {
+      filter.classList.remove("show");
+  });
+}

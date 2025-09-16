@@ -1,3 +1,11 @@
+/* /Components/Atomic/EllipsedText.razor.rz.scp.css */
+.element-1[b-1y7vw7jdh4] {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 300px;
+}
 /* /Components/Atomic/FileUpload.razor.rz.scp.css */
 html[b-1d7c737ja3], body[b-1d7c737ja3], *[b-1d7c737ja3] {
     box-sizing: border-box;
@@ -226,14 +234,6 @@ p[b-1d7c737ja3] {
     width: auto; /* Allows the width to adjust based on content */
     max-width: none; /* Remove the max-width constraint */
     white-space: nowrap; /* Prevents the popup from breaking lines if you want it in a single line */
-}
-/* /Components/Grid/CellGridEditable.razor.rz.scp.css */
-.element-1[b-48qvi83of9] {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
-    max-width: 300px;
 }
 /* /Components/Grid/WhiteBoxElement.razor.rz.scp.css */
 .container[b-6yr4svn9fc] {
