@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Tabito.Web.Client",
   "resources": {
-    "hash": "sha256-2HIhmx8PbpQNr+q1j3FDCp0A2jxkA8yz/TxywA4DIWk=",
+    "hash": "sha256-DBIcYqs8ku6co6go5E+EtTug0F7l0o1qnP508WqEOr4=",
     "fingerprinting": {
       "AspNetCore.Identity.MongoDbCore.6glv2vsp53.wasm": "AspNetCore.Identity.MongoDbCore.wasm",
       "AWSSDK.Core.m242pvkqnp.wasm": "AWSSDK.Core.wasm",
@@ -121,7 +121,7 @@
       "System.Net.WebHeaderCollection.rl7yrqi9j0.wasm": "System.Net.WebHeaderCollection.wasm",
       "System.Numerics.Vectors.q41pg36rp1.wasm": "System.Numerics.Vectors.wasm",
       "System.ObjectModel.bp62qjhrgg.wasm": "System.ObjectModel.wasm",
-      "System.Private.CoreLib.g7pxidc7w4.wasm": "System.Private.CoreLib.wasm",
+      "System.Private.CoreLib.nh6xmpzh7k.wasm": "System.Private.CoreLib.wasm",
       "System.Private.Uri.f4c3rh6pp7.wasm": "System.Private.Uri.wasm",
       "System.Private.Xml.Linq.ydfn1pa0om.wasm": "System.Private.Xml.Linq.wasm",
       "System.Private.Xml.etksboab69.wasm": "System.Private.Xml.wasm",
@@ -170,9 +170,9 @@
       "System.Xml.XDocument.jy9ka2v1kh.wasm": "System.Xml.XDocument.wasm",
       "System.Xml.XmlSerializer.vim5j19es8.wasm": "System.Xml.XmlSerializer.wasm",
       "System.Xml.XPath.wnntrxw973.wasm": "System.Xml.XPath.wasm",
-      "Tabito.Model.xkeplubty6.wasm": "Tabito.Model.wasm",
-      "Tabito.Web.Client.Services.36twawaevb.wasm": "Tabito.Web.Client.Services.wasm",
-      "Tabito.Web.Client.w46sac829x.wasm": "Tabito.Web.Client.wasm",
+      "Tabito.Model.9shsmqchd2.wasm": "Tabito.Model.wasm",
+      "Tabito.Web.Client.Services.bechm5vpbh.wasm": "Tabito.Web.Client.Services.wasm",
+      "Tabito.Web.Client.3oq9710cu5.wasm": "Tabito.Web.Client.wasm",
       "UglyToad.PdfPig.Core.5awimwyu0o.wasm": "UglyToad.PdfPig.Core.wasm",
       "UglyToad.PdfPig.DocumentLayoutAnalysis.uw8cb7fag9.wasm": "UglyToad.PdfPig.DocumentLayoutAnalysis.wasm",
       "UglyToad.PdfPig.Fonts.i5acymmpgl.wasm": "UglyToad.PdfPig.Fonts.wasm",
@@ -204,7 +204,7 @@
       "icudt_no_CJK.lfu7j35m59.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "coreAssembly": {
-      "System.Private.CoreLib.g7pxidc7w4.wasm": "sha256-JNwntpzwY8ne3oTXw/UOkTkvK5CB+aYHl3zyPDIdRr4=",
+      "System.Private.CoreLib.nh6xmpzh7k.wasm": "sha256-G+ltGVwr1iwKoqjjrwPWlYFQT3MdVUZoV+1EzFpOMYQ=",
       "System.Runtime.InteropServices.JavaScript.3uvku0ibnu.wasm": "sha256-K5wa4QwWB8A0OrHM4yWK86Nl6ItEv9c3ctAASLMYLKo="
     },
     "assembly": {
@@ -373,9 +373,9 @@
       "System.Xml.XDocument.jy9ka2v1kh.wasm": "sha256-azFd3S94w/odL1/rcctP1s8Vzp59NBL9FEWSiXbPbHw=",
       "System.Xml.XmlSerializer.vim5j19es8.wasm": "sha256-R6hwHdgxBldVhmwB/9wzbVzCza4iQ82E8A/wO1ylM4w=",
       "System.Xml.XPath.wnntrxw973.wasm": "sha256-DHz90U+8B05LRJimzLRqw7acIGHzXWmeUz35EoNmbko=",
-      "Tabito.Model.xkeplubty6.wasm": "sha256-EXNoZAdV5k1XvXaYWwHCrWlTPU5CLjXNDZabKclV2e4=",
-      "Tabito.Web.Client.Services.36twawaevb.wasm": "sha256-VbrqVFPN30ygTWTf+NZHfbuP3sLw4a4ZeUcNowAam3w=",
-      "Tabito.Web.Client.w46sac829x.wasm": "sha256-EAg2HNdbY1depjSAW+0c/oKV5s8nKMEo4x4Ye5h9a4E=",
+      "Tabito.Model.9shsmqchd2.wasm": "sha256-9ziXQu9G7xXWcsDqZaVvew5KqTKZ7gVDlQ7V1/eUeKA=",
+      "Tabito.Web.Client.Services.bechm5vpbh.wasm": "sha256-A5O7C0AUKR094FaJ0lG+Vj0nrQj5y++om2ntYGlcVeg=",
+      "Tabito.Web.Client.3oq9710cu5.wasm": "sha256-vQUOkDWRMmGx8Z5VqW1sc8TpPC+OHc3qqHyperHx5FI=",
       "UglyToad.PdfPig.Core.5awimwyu0o.wasm": "sha256-7WlB7lHj5WM4Tdmq60vM3e75A7XBf8T4tdi/oNxhF9o=",
       "UglyToad.PdfPig.DocumentLayoutAnalysis.uw8cb7fag9.wasm": "sha256-Ho9R3VYbHF10Qb5IDoMWQpnV4uFkkuaMouy6zFYeRRI=",
       "UglyToad.PdfPig.Fonts.i5acymmpgl.wasm": "sha256-midyEnUxRGjT9XiJuxW7iXlmpTG5XuYNuQC0/+je/2w=",
