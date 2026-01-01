@@ -1,3 +1,19 @@
+// ===============================
+// SAFE WRAPPER (OBLIGATORIO)
+// ===============================
+function safeInvoke(dotnetHelper, method, ...args) {
+    if (!dotnetHelper) return;
+
+    try {
+        const p = dotnetHelper.invokeMethodAsync(method, ...args);
+        if (p && p.catch) {
+            p.catch(() => { /* runtime muerto, ignorar */ });
+        }
+    } catch {
+        /* runtime muerto, ignorar */
+    }
+}
+
 function saveAsFile(fileName, byteBase64) {
     const link = document.createElement('a');
     link.download = fileName;
@@ -22,9 +38,12 @@ async function extractPdfText(fileBytes) {
 
 window.clickOutsideHandler = {
     initialize: function (element, dotNetHelper) {
+        let disposed = false;
+
         function handleClick(event) {
+            if (disposed) return;
             if (!element.contains(event.target)) {
-                dotNetHelper.invokeMethodAsync('HandleClickOutside');
+                safeInvoke(dotNetHelper, 'HandleClickOutside');
             }
         }
 
@@ -32,7 +51,9 @@ window.clickOutsideHandler = {
 
         return {
             dispose: function () {
+                disposed = true;
                 document.removeEventListener('click', handleClick);
+                dotNetHelper = null;
             }
         };
     }
@@ -40,19 +61,22 @@ window.clickOutsideHandler = {
 
 window.resizeHandler = {
     initialize: function (dotnetHelper) {
+        let disposed = false;
+
         function reportSize() {
-            dotnetHelper.invokeMethodAsync('SetIsMobile', window.innerWidth <= 768);
+            if (disposed) return;
+            safeInvoke(dotnetHelper, 'SetIsMobile', window.innerWidth <= 768);
         }
 
-        // Report the initial size
         reportSize();
-
-        // Set up event listener for resize
         window.addEventListener('resize', reportSize);
 
-        // Clean up event listener when no longer needed
         return {
-            dispose: () => window.removeEventListener('resize', reportSize)
+            dispose: () => {
+                disposed = true;
+                window.removeEventListener('resize', reportSize);
+                dotnetHelper = null;
+            }
         };
     },
     isMobile: function () {
