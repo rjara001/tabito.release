@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Tabito.Web.Client",
   "resources": {
-    "hash": "sha256-DBIcYqs8ku6co6go5E+EtTug0F7l0o1qnP508WqEOr4=",
+    "hash": "sha256-EseYhGjMtciWAaLkI5ZXyt+EWeA7DGswlkjOJgdDP5M=",
     "fingerprinting": {
       "AspNetCore.Identity.MongoDbCore.6glv2vsp53.wasm": "AspNetCore.Identity.MongoDbCore.wasm",
       "AWSSDK.Core.m242pvkqnp.wasm": "AWSSDK.Core.wasm",
@@ -171,8 +171,8 @@
       "System.Xml.XmlSerializer.vim5j19es8.wasm": "System.Xml.XmlSerializer.wasm",
       "System.Xml.XPath.wnntrxw973.wasm": "System.Xml.XPath.wasm",
       "Tabito.Model.9shsmqchd2.wasm": "Tabito.Model.wasm",
-      "Tabito.Web.Client.Services.bechm5vpbh.wasm": "Tabito.Web.Client.Services.wasm",
-      "Tabito.Web.Client.3oq9710cu5.wasm": "Tabito.Web.Client.wasm",
+      "Tabito.Web.Client.Services.nrgul6oq4b.wasm": "Tabito.Web.Client.Services.wasm",
+      "Tabito.Web.Client.xpczzxe3el.wasm": "Tabito.Web.Client.wasm",
       "UglyToad.PdfPig.Core.5awimwyu0o.wasm": "UglyToad.PdfPig.Core.wasm",
       "UglyToad.PdfPig.DocumentLayoutAnalysis.uw8cb7fag9.wasm": "UglyToad.PdfPig.DocumentLayoutAnalysis.wasm",
       "UglyToad.PdfPig.Fonts.i5acymmpgl.wasm": "UglyToad.PdfPig.Fonts.wasm",
@@ -374,8 +374,8 @@
       "System.Xml.XmlSerializer.vim5j19es8.wasm": "sha256-R6hwHdgxBldVhmwB/9wzbVzCza4iQ82E8A/wO1ylM4w=",
       "System.Xml.XPath.wnntrxw973.wasm": "sha256-DHz90U+8B05LRJimzLRqw7acIGHzXWmeUz35EoNmbko=",
       "Tabito.Model.9shsmqchd2.wasm": "sha256-9ziXQu9G7xXWcsDqZaVvew5KqTKZ7gVDlQ7V1/eUeKA=",
-      "Tabito.Web.Client.Services.bechm5vpbh.wasm": "sha256-A5O7C0AUKR094FaJ0lG+Vj0nrQj5y++om2ntYGlcVeg=",
-      "Tabito.Web.Client.3oq9710cu5.wasm": "sha256-vQUOkDWRMmGx8Z5VqW1sc8TpPC+OHc3qqHyperHx5FI=",
+      "Tabito.Web.Client.Services.nrgul6oq4b.wasm": "sha256-nUIUk2ZMQa7vfYref+koIm0LDynlsD1DcIuMaqwtwlo=",
+      "Tabito.Web.Client.xpczzxe3el.wasm": "sha256-JfIofHlrRG0xR153vfsf5Qz6eTm6vZURLr6P9BwjnGk=",
       "UglyToad.PdfPig.Core.5awimwyu0o.wasm": "sha256-7WlB7lHj5WM4Tdmq60vM3e75A7XBf8T4tdi/oNxhF9o=",
       "UglyToad.PdfPig.DocumentLayoutAnalysis.uw8cb7fag9.wasm": "sha256-Ho9R3VYbHF10Qb5IDoMWQpnV4uFkkuaMouy6zFYeRRI=",
       "UglyToad.PdfPig.Fonts.i5acymmpgl.wasm": "sha256-midyEnUxRGjT9XiJuxW7iXlmpTG5XuYNuQC0/+je/2w=",
